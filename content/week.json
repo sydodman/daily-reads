@@ -1,0 +1,61 @@
+{
+  "week": "2026-11-02",
+  "title": "Demo week",
+  "days": [
+    {
+      "date": "2026-11-03",
+      "sessions": [
+        {
+          "id": "demo-geo-rainfall",
+          "slot": "Demo",
+          "subject": "Geography",
+          "topic": "Why does it rain so much in the UK?",
+          "minutes": 20,
+          "read": {
+            "title": "Why does it rain so much in the UK?",
+            "intro": "Read this carefully — the questions afterwards will ask you to use the ideas, not just remember them.",
+            "body": [
+              "Ask anyone abroad what they know about British weather and they will probably say one word: rain. It is a bit unfair — Rome gets more rain in a year than London does — but parts of the UK really are among the wettest places in Europe. To understand why, you need to know where our air comes from and what happens to it when it arrives.",
+              "## Where our weather comes from",
+              "The UK sits on the western edge of Europe with the Atlantic Ocean on one side. Most of the time, the wind blows towards us from the south-west. These are called the **prevailing winds**, and because they have travelled thousands of kilometres across warm ocean water, they pick up huge amounts of moisture through evaporation. By the time this air reaches us it is mild and damp.",
+              "The ocean also keeps our temperatures steady. A warm ocean current called the **North Atlantic Drift** carries heat from the Caribbean towards our coast. That is why the UK has mild winters compared with places at the same latitude, such as parts of Canada, which freeze solid. Geographers call our type of climate a **temperate maritime** climate: not too hot, not too cold, and wet all year round.",
+              "## The key idea: rising air makes rain",
+              "Every kind of rain starts the same way. When air rises, it expands and cools. Cool air cannot hold as much water vapour as warm air, so once the air cools to a certain temperature — its **dew point** — the water vapour **condenses** into tiny droplets. Billions of these droplets make a cloud. When the droplets join together and become heavy enough, they fall as rain.",
+              "So the real question is: what makes air rise? There are three main answers, and they give us the three types of rainfall.",
+              "## 1. Relief rainfall",
+              "When moist air blowing in from the Atlantic hits high ground — such as the mountains of Wales, the Lake District or the Scottish Highlands — it is forced upwards. As it rises it cools, condenses and drops its rain on the side of the mountain facing the wind (the **windward** side). By the time the air sinks down the other side, most of its moisture has gone. The sinking air warms up, so clouds evaporate and the land beyond is much drier. This dry area is called a **rain shadow**.",
+              "This is the main reason the west of the UK is so much wetter than the east. Seathwaite in the Lake District can receive over 3,000 mm of rain a year, while parts of East Anglia get only around 600 mm — five times less.",
+              "## 2. Frontal rainfall",
+              "Large masses of air with different temperatures often meet over the Atlantic. Where warm air meets cold air, the boundary is called a **front**. Warm air is lighter, so it is pushed up over the cold air. As it rises, it cools and condenses, giving long periods of steady rain. Fronts usually come with **depressions** — areas of low pressure that sweep in from the west, bringing wind, cloud and rain. A typical British autumn might bring a new depression every few days.",
+              "## 3. Convectional rainfall",
+              "On a hot summer day, the sun heats the ground, which heats the air above it. This warm air rises quickly in currents, cools, and forms tall, towering clouds. The result can be a sudden heavy downpour, sometimes with thunder and lightning, usually in the afternoon. This type is common in the tropics every day, but in the UK it mainly happens in summer, especially in the south-east, where it is warmest.",
+              "## Putting it together",
+              "The UK gets so much rain because moist Atlantic air arrives almost constantly, and something nearly always lifts it: mountains in the west, fronts from passing depressions, or summer heating. Understanding *why* air rises is the key to explaining almost any rainfall pattern on a map — which is exactly what exam questions love to ask."
+            ],
+            "keywords": [
+              { "term": "Prevailing wind", "def": "The direction the wind blows from most often. In the UK it is from the south-west." },
+              { "term": "Condensation", "def": "When water vapour (a gas) cools and turns into liquid water droplets." },
+              { "term": "Dew point", "def": "The temperature at which air becomes saturated and water vapour starts to condense." },
+              { "term": "Rain shadow", "def": "A dry area on the side of a mountain sheltered from the wind." },
+              { "term": "Front", "def": "The boundary where a warm air mass meets a cold air mass." },
+              { "term": "Depression", "def": "An area of low air pressure, usually bringing wind, cloud and rain." }
+            ]
+          },
+          "questions": [
+            { "q": "From which direction does the UK's prevailing wind usually blow?", "options": ["North-east", "South-west", "South-east", "North-west"], "answer": 1, "tag": "UK climate", "explain": "The prevailing winds come from the south-west, across the Atlantic Ocean, which is why they bring so much moisture." },
+            { "q": "Why is air arriving from the Atlantic so moist?", "options": ["It has passed over mountains", "It comes from the Arctic", "It has picked up water vapour by evaporation over the ocean", "It has been heated by the sun over land"], "answer": 2, "tag": "UK climate", "explain": "Travelling thousands of kilometres over the sea, the air gains moisture through evaporation from the ocean surface." },
+            { "q": "What happens to air as it rises?", "options": ["It expands and cools", "It shrinks and warms", "It gets heavier", "It gains more water vapour"], "answer": 0, "tag": "Rainfall process", "explain": "Rising air expands and cools. Cooler air holds less water vapour, which is why rising air leads to cloud and rain." },
+            { "q": "What is the dew point?", "options": ["The height at which clouds form rain", "The temperature at which water vapour starts to condense", "The point where two air masses meet", "The wettest place on a mountain"], "answer": 1, "tag": "Rainfall process", "explain": "The dew point is a temperature. When air cools to it, water vapour condenses into droplets." },
+            { "q": "Which type of rainfall is mainly responsible for the west of the UK being wetter than the east?", "options": ["Convectional", "Frontal", "Acid rain", "Relief"], "answer": 3, "tag": "Types of rainfall", "explain": "Relief rainfall: moist south-westerly air is forced up over the western mountains and drops most of its rain there." },
+            { "q": "A town lies on the eastern side of a mountain range, with the prevailing wind from the west. What would you expect its rainfall to be like?", "options": ["Drier, because it is in a rain shadow", "Wetter, because it is on the windward side", "The same as the west side", "Wetter, because sinking air causes rain"], "answer": 0, "tag": "Types of rainfall", "explain": "With a westerly wind, the east side is sheltered (leeward). The air has already lost its moisture and is sinking and warming, so it is a rain shadow." },
+            { "q": "In frontal rainfall, why is the warm air pushed upwards?", "options": ["Because it is heavier than cold air", "Because the sun heats it", "Because it is lighter than cold air", "Because it hits a mountain"], "answer": 2, "tag": "Types of rainfall", "explain": "Warm air is less dense (lighter) than cold air, so it rises over the cold air at a front, then cools and condenses." },
+            { "q": "A sudden heavy thunderstorm on a hot July afternoon in Kent is most likely to be:", "options": ["Relief rainfall", "Convectional rainfall", "Frontal rainfall", "Caused by the North Atlantic Drift"], "answer": 1, "tag": "Types of rainfall", "explain": "Strong heating of the ground makes warm air rise rapidly, forming tall clouds and heavy, short-lived storms — convectional rainfall, most common in the warm south-east in summer." },
+            { "q": "Why does the UK have milder winters than parts of Canada at the same latitude?", "options": ["The UK is closer to the equator", "The UK has more mountains", "Depressions bring warm air every day", "The North Atlantic Drift brings warm water towards the UK"], "answer": 3, "tag": "UK climate", "explain": "The North Atlantic Drift carries warmth from the Caribbean, keeping UK winters mild for our latitude." },
+            { "q": "Seathwaite gets about 3,000 mm of rain a year and parts of East Anglia about 600 mm. How many times wetter is Seathwaite?", "options": ["About 5 times", "About 2 times", "About 50 times", "About 10 times"], "answer": 0, "tag": "Data skills", "explain": "3,000 ÷ 600 = 5. Being able to compare figures like this is a common skill in geography exams." }
+          ],
+          "reflect": "In two or three sentences, explain to someone in your class why Wales is wetter than Norfolk. Try to use the words 'relief', 'condense' and 'rain shadow'."
+        }
+      ]
+    }
+  ]
+}

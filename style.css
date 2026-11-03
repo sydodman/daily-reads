@@ -1,0 +1,57 @@
+:root{
+  --bg:#f6f3ec; --card:#fffdf8; --ink:#1d232b; --muted:#6a7280; --line:#e4dfd3;
+  --accent:#1f3a5f; --accent-ink:#fff; --good:#1f7a4d; --good-bg:#e4f3ea;
+  --bad:#b23a2e; --bad-bg:#fbe7e4; --warn:#9a6a00; --warn-bg:#fbf1d6;
+  --sci:#2b6cb0; --geo:#2f855a; --hum:#8b4fb3; --other:#6a7280;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#14181d; --card:#1c222a; --ink:#e8e6e1; --muted:#9aa3ad; --line:#2c343e;
+    --accent:#8fb3e0; --accent-ink:#0e1620; --good:#6fd19c; --good-bg:#16352a;
+    --bad:#f08a7e; --bad-bg:#3a1f1c; --warn:#e8c065; --warn-bg:#3a2f15;
+    --sci:#7fb2ec; --geo:#79c79b; --hum:#c49ae0;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:640px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 16px) 16px calc(env(safe-area-inset-bottom) + 32px)}
+h1{font-size:1.6rem;line-height:1.2;margin:.2em 0 .3em}
+h2{font-size:1.2rem;margin:1.4em 0 .5em}
+h3{font-size:1.05rem;margin:1.2em 0 .3em}
+.muted{color:var(--muted)} .pad{padding:24px 0} .small{font-size:.85rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:12px 0}
+.session-card{display:flex;gap:12px;align-items:center;width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer}
+.session-card .meta{flex:1}
+.session-card .title{font-weight:600}
+.pill{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:99px;color:#fff;background:var(--other);margin-right:6px;vertical-align:1px}
+.pill.Science{background:var(--sci)} .pill.Geography{background:var(--geo)} .pill.History,.pill.French,.pill.RE{background:var(--hum)}
+@media (prefers-color-scheme: dark){.pill{color:#0e1620}}
+.tick{font-size:1.4rem;color:var(--good)} .go{font-size:1.4rem;color:var(--accent)}
+.btn{display:block;width:100%;border:0;border-radius:12px;padding:15px 18px;font:600 1.05rem/1.2 inherit;font-family:inherit;
+  background:var(--accent);color:var(--accent-ink);cursor:pointer;margin-top:14px}
+.btn.secondary{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.btn:disabled{opacity:.45;cursor:default}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+.link{background:none;border:0;color:var(--accent);font:inherit;padding:6px 0;cursor:pointer}
+.progress{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0 14px}
+.progress>i{display:block;height:100%;background:var(--accent);transition:width .3s}
+.reading{font-family:Charter,"Iowan Old Style",Georgia,serif;font-size:1.12rem;line-height:1.7}
+.reading p{margin:0 0 1em}
+.keywords dt{font-weight:700;margin-top:8px} .keywords dd{margin:0 0 4px}
+.q{font-weight:600;font-size:1.1rem;margin:4px 0 12px}
+.opt{display:block;width:100%;text-align:left;font:inherit;color:inherit;background:var(--card);border:1.5px solid var(--line);
+  border-radius:12px;padding:13px 14px;margin:8px 0;cursor:pointer}
+.opt.right{border-color:var(--good);background:var(--good-bg)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.opt:disabled{cursor:default}
+.explain{border-left:4px solid var(--accent);padding:10px 14px;background:var(--card);border-radius:0 10px 10px 0;margin-top:12px}
+.explain.ok{border-color:var(--good)} .explain.no{border-color:var(--bad)}
+textarea{width:100%;min-height:120px;font:inherit;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+.score{font-size:3rem;font-weight:800;line-height:1;margin:8px 0}
+.banner{padding:10px 14px;border-radius:12px;background:var(--warn-bg);color:var(--warn);font-size:.9rem;margin:10px 0}
+.dots{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.dots span{width:14px;height:14px;border-radius:50%;background:var(--line)}
+.dots span.done{background:var(--good)}
+.timer{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.9rem}
