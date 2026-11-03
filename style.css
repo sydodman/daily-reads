@@ -26,7 +26,7 @@ h3{font-size:1.05rem;margin:1.2em 0 .3em}
 .session-card .meta{flex:1}
 .session-card .title{font-weight:600}
 .pill{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:99px;color:#fff;background:var(--other);margin-right:6px;vertical-align:1px}
-.pill.Science{background:var(--sci)} .pill.Geography{background:var(--geo)} .pill.History,.pill.French,.pill.RE{background:var(--hum)}
+.pill.Science{background:var(--sci)} .pill.Geography{background:var(--geo)} .pill.History,.pill.French,.pill.Spanish,.pill.RE,.pill.PRE,.pill.English{background:var(--hum)} .pill.Maths{background:var(--sci)}
 @media (prefers-color-scheme: dark){.pill{color:#0e1620}}
 .tick{font-size:1.4rem;color:var(--good)} .go{font-size:1.4rem;color:var(--accent)}
 .btn{display:block;width:100%;border:0;border-radius:12px;padding:15px 18px;font:600 1.05rem/1.2 inherit;font-family:inherit;
