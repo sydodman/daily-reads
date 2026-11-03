@@ -1,5 +1,5 @@
 // Offline support: app shell cache-first, weekly content network-first.
-const VERSION = "dr-v1";
+const VERSION = "dr-v2";
 const SHELL = ["./", "index.html", "style.css", "app.js", "config.js", "manifest.webmanifest", "icon-192.png", "icon-180.png"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener("activate", (e) => {

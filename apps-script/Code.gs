@@ -6,7 +6,7 @@
  * WRITE_KEY must match config.js in the app (it's public on GitHub, so it only allows adding results).
  * READ_KEY is private — you type it into the parent dashboard once. Never put it in the repo.
  */
-const WRITE_KEY = "change-me-write";
+const WRITE_KEY = "bus-reads-2026";
 const READ_KEY = "change-me-read";
 
 const SESSION_COLS = ["sessionId", "receivedAt", "week", "date", "slot", "subject", "topic", "score", "total", "pct",
