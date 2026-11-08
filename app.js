@@ -30,6 +30,10 @@
     return new Date(y, m - 1, d).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "short" });
   }
   const mins = (sec) => Math.round(sec / 60);
+  const wordCount = (t) => (String(t || "").trim().match(/\S+/g) || []).length;
+  const MIN_WORDS = 15; // per written answer
+  // `reflect` may be one prompt (older weeks: optional) or a list of prompts (each needs a real answer).
+  const prompts = (s) => Array.isArray(s.reflect) ? s.reflect : (s.reflect ? [s.reflect] : []);
   const fmtClock = (sec) => Math.floor(sec / 60) + ":" + String(Math.floor(sec % 60)).padStart(2, "0");
 
   // ---------- content ----------
@@ -173,7 +177,7 @@
   function renderRead(s) {
     const rd = s.read || {};
     const words = (rd.body || []).join(" ").split(/\s+/).length;
-    const minRead = Math.round(words / 300 * 60); // floor at a brisk pace, so skipping straight to questions isn't possible
+    const minRead = Math.round(words / 250 * 60); // floor at a steady pace, so skipping straight to questions isn't possible
     let h = header(s, "Read", 0.05) + '<h1>' + esc(rd.title || s.topic) + "</h1>";
     if (rd.intro) h += '<p class="muted">' + inline(rd.intro) + "</p>";
     h += '<article class="reading">' + (rd.body || []).map(para).join("") + "</article>";
@@ -206,7 +210,7 @@
     }).join("");
     if (prev) {
       h += '<div class="explain ' + (prev.ok ? "ok" : "no") + '"><strong>' + (prev.ok ? "Correct." : "Not quite — it's " + "ABCD"[qq.answer] + ".") + "</strong> " + inline(qq.explain || "") + "</div>";
-      h += '<button class="btn" id="next">' + (i + 1 < s.questions.length ? "Next question ›" : (s.reflect ? "Last bit ›" : "Finish ›")) + "</button>";
+      h += '<button class="btn" id="next">' + (i + 1 < s.questions.length ? "Next question ›" : (prompts(s).length ? "Last bit ›" : "Finish ›")) + "</button>";
     }
     app.innerHTML = h; wireBack();
     if (!prev) {
@@ -219,7 +223,7 @@
       document.getElementById("next").addEventListener("click", () => {
         bankTime();
         if (i + 1 < s.questions.length) run.q = i + 1;
-        else if (s.reflect) run.stage = "reflect";
+        else if (prompts(s).length) run.stage = "reflect";
         else return finish(s);
         store.set("inprogress", run); render();
       });
@@ -227,13 +231,32 @@
   }
 
   function renderReflect(s) {
+    const ps = prompts(s), required = Array.isArray(s.reflect);
+    if (!Array.isArray(run.reflections)) run.reflections = ps.map((_, k) => (k === 0 && run.reflection) || "");
     let h = header(s, "In your own words", 0.95);
-    h += '<p class="q">' + inline(s.reflect) + '</p><textarea id="ref" placeholder="A few sentences is plenty…">' + esc(run.reflection || "") + "</textarea>";
+    h += ps.map((p, k) => '<p class="q">' + (ps.length > 1 ? (k + 1) + ". " : "") + inline(p) + '</p><textarea data-k="' + k + '" placeholder="A few sentences is plenty…">' + esc(run.reflections[k] || "") + "</textarea>" +
+      (required ? '<p class="small muted" id="wc' + k + '"></p>' : "")).join("");
     h += '<button class="btn" id="fin">Finish ›</button>';
     app.innerHTML = h; wireBack();
-    const ta = document.getElementById("ref");
-    ta.addEventListener("input", () => { run.reflection = ta.value.slice(0, 2000); store.set("inprogress", run); });
-    document.getElementById("fin").addEventListener("click", () => finish(s));
+    const fin = document.getElementById("fin");
+    const check = () => {
+      if (!required) return;
+      let ok = true;
+      ps.forEach((_, k) => {
+        const n = wordCount(run.reflections[k]);
+        document.getElementById("wc" + k).textContent = n >= MIN_WORDS ? "✓" : "Write at least " + MIN_WORDS + " words (" + n + " so far)";
+        if (n < MIN_WORDS) ok = false;
+      });
+      fin.disabled = !ok;
+    };
+    app.querySelectorAll("textarea").forEach((ta) => ta.addEventListener("input", () => {
+      run.reflections[Number(ta.getAttribute("data-k"))] = ta.value.slice(0, 900); store.set("inprogress", run); check();
+    }));
+    check();
+    fin.addEventListener("click", () => {
+      run.reflection = ps.length > 1 ? ps.map((p, k) => (k + 1) + ". " + p + "\n" + (run.reflections[k] || "").trim()).join("\n\n") : (run.reflections[0] || "");
+      finish(s);
+    });
   }
 
   function finish(s) {
