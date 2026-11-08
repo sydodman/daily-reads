@@ -41,25 +41,153 @@
               "Mitosis is how one cell becomes a whole person, and how that person heals, grows and stays alive. It produces cells that are identical copies, which is exactly what the body needs for growth and repair. But identical copies are not always what living things need. In the next science session, you will meet **meiosis**, a different type of cell division that makes cells which are deliberately *not* identical — and discover why that makes every person unique."
             ],
             "keywords": [
-              { "term": "Mitosis", "def": "Cell division that makes two genetically identical cells, used for growth, repair and replacement." },
-              { "term": "Chromosome", "def": "A long thread of DNA found in the nucleus, carrying many genes. Human body cells have 46." },
-              { "term": "Gene", "def": "A section of DNA that carries the instructions for one characteristic or protein." },
-              { "term": "Daughter cells", "def": "The new cells produced when a cell divides." },
-              { "term": "Cell cycle", "def": "The repeating pattern of a cell growing, copying its chromosomes and dividing." },
-              { "term": "Tumour", "def": "A lump of cells formed when cell division gets out of control." }
+              {
+                "term": "Mitosis",
+                "def": "Cell division that makes two genetically identical cells, used for growth, repair and replacement."
+              },
+              {
+                "term": "Chromosome",
+                "def": "A long thread of DNA found in the nucleus, carrying many genes. Human body cells have 46."
+              },
+              {
+                "term": "Gene",
+                "def": "A section of DNA that carries the instructions for one characteristic or protein."
+              },
+              {
+                "term": "Daughter cells",
+                "def": "The new cells produced when a cell divides."
+              },
+              {
+                "term": "Cell cycle",
+                "def": "The repeating pattern of a cell growing, copying its chromosomes and dividing."
+              },
+              {
+                "term": "Tumour",
+                "def": "A lump of cells formed when cell division gets out of control."
+              }
             ]
           },
           "questions": [
-            { "q": "What is the main purpose of mitosis in the human body?", "options": ["To make sex cells such as sperm and eggs", "To digest food", "To make new cells for growth, repair and replacement", "To make cells bigger"], "answer": 2, "tag": "Mitosis", "explain": "Mitosis makes identical new cells so the body can grow, heal and replace worn-out cells. Sex cells are made by a different process, meiosis, which you'll meet next session." },
-            { "q": "How many chromosomes are in a normal human body cell?", "options": ["46", "23", "92", "12"], "answer": 0, "tag": "Chromosomes and DNA", "explain": "Human body cells have 46 chromosomes, arranged in 23 pairs — one of each pair from each parent." },
-            { "q": "What are chromosomes made of?", "options": ["Protein and fat", "Cytoplasm", "Cell membrane", "DNA"], "answer": 3, "tag": "Chromosomes and DNA", "explain": "Chromosomes are long threads of DNA. Sections of the DNA called genes carry instructions for the body." },
-            { "q": "What happens first, before a cell divides by mitosis?", "options": ["The cell splits in two", "Each chromosome is copied", "The nucleus disappears for ever", "The cell loses half its chromosomes"], "answer": 1, "tag": "Mitosis", "explain": "The cell copies every chromosome first, so that there is a full set for each of the two new cells. That copying is why chromosomes look X-shaped just before division." },
-            { "q": "A skin cell with 46 chromosomes divides by mitosis. How many chromosomes does each daughter cell have?", "options": ["23", "46", "92", "It varies"], "answer": 1, "tag": "Mitosis", "explain": "Mitosis makes identical copies, so each new cell has the full 46. A common mistake is to think the chromosomes are shared out in half — but they were copied first, so each cell gets a complete set." },
-            { "q": "Why can't a growing body just make its existing cells bigger?", "options": ["Cells are not allowed to change size", "Bigger cells would have too many chromosomes", "Bigger cells would be too heavy", "A very big cell can't move food and oxygen in and waste out quickly enough"], "answer": 3, "tag": "Mitosis", "explain": "Substances have to travel across the cell membrane and through the cell. In a cell that is too big, this takes too long, so the body grows by making more cells instead." },
-            { "q": "Why do scientists look at onion root tips to see mitosis?", "options": ["Root tips grow quickly, so many cells there are dividing", "Onion cells have no nucleus", "Onions don't have chromosomes", "Root tips contain sex cells"], "answer": 0, "tag": "Mitosis", "explain": "Plants grow at the tips of roots and shoots, so lots of cells there are in the middle of dividing — ideal for spotting the different stages." },
-            { "q": "What is a tumour?", "options": ["A cell that has stopped dividing", "A type of chromosome", "A lump of cells formed when cell division gets out of control", "A plant cell wall"], "answer": 2, "tag": "Mitosis", "explain": "If a cell's DNA is damaged, it may divide uncontrollably. The resulting lump is a tumour; if it spreads into other tissues, it is cancer." },
-            { "q": "One cell divides by mitosis, then each new cell divides again, and so on. How many cells will there be after 5 rounds of division?", "options": ["10", "32", "25", "16"], "answer": 1, "tag": "Data skills", "explain": "The number doubles each time: 1 → 2 → 4 → 8 → 16 → 32. That's 2 × 2 × 2 × 2 × 2 = 32. Doubling is why cell numbers can grow so quickly." },
-            { "q": "Recap from last week: why are saucepans made of metal?", "options": ["Metals are good conductors of heat", "Metals are good conductors of electricity", "Metals are brittle", "Metals have low melting points"], "answer": 0, "tag": "Metals and non-metals", "explain": "A saucepan needs to carry heat from the hob to the food, so it's about conducting heat (thermal conduction). Metals also conduct electricity — but that's why we use them in wires, not pans. The handle is a non-metal because non-metals are poor conductors of heat." }
+            {
+              "q": "What is the main purpose of mitosis in the human body?",
+              "options": [
+                "To make sex cells such as sperm and eggs",
+                "To digest food",
+                "To make new cells for growth, repair and replacement",
+                "To make cells bigger"
+              ],
+              "answer": 2,
+              "tag": "Mitosis",
+              "explain": "Mitosis makes identical new cells so the body can grow, heal and replace worn-out cells. Sex cells are made by a different process, meiosis, which you'll meet next session."
+            },
+            {
+              "q": "How many chromosomes are in a normal human body cell?",
+              "options": [
+                "46",
+                "23",
+                "92",
+                "12"
+              ],
+              "answer": 0,
+              "tag": "Chromosomes and DNA",
+              "explain": "Human body cells have 46 chromosomes, arranged in 23 pairs — one of each pair from each parent."
+            },
+            {
+              "q": "What are chromosomes made of?",
+              "options": [
+                "Protein and fat",
+                "Cytoplasm",
+                "Cell membrane",
+                "DNA"
+              ],
+              "answer": 3,
+              "tag": "Chromosomes and DNA",
+              "explain": "Chromosomes are long threads of DNA. Sections of the DNA called genes carry instructions for the body."
+            },
+            {
+              "q": "What happens first, before a cell divides by mitosis?",
+              "options": [
+                "The cell splits in two",
+                "Each chromosome is copied",
+                "The nucleus disappears for ever",
+                "The cell loses half its chromosomes"
+              ],
+              "answer": 1,
+              "tag": "Mitosis",
+              "explain": "The cell copies every chromosome first, so that there is a full set for each of the two new cells. That copying is why chromosomes look X-shaped just before division."
+            },
+            {
+              "q": "A skin cell with 46 chromosomes divides by mitosis. How many chromosomes does each daughter cell have?",
+              "options": [
+                "23",
+                "46",
+                "92",
+                "It varies"
+              ],
+              "answer": 1,
+              "tag": "Mitosis",
+              "explain": "Mitosis makes identical copies, so each new cell has the full 46. A common mistake is to think the chromosomes are shared out in half — but they were copied first, so each cell gets a complete set."
+            },
+            {
+              "q": "Why can't a growing body just make its existing cells bigger?",
+              "options": [
+                "Cells are not allowed to change size",
+                "Bigger cells would have too many chromosomes",
+                "Bigger cells would be too heavy",
+                "A very big cell can't move food and oxygen in and waste out quickly enough"
+              ],
+              "answer": 3,
+              "tag": "Mitosis",
+              "explain": "Substances have to travel across the cell membrane and through the cell. In a cell that is too big, this takes too long, so the body grows by making more cells instead."
+            },
+            {
+              "q": "Why do scientists look at onion root tips to see mitosis?",
+              "options": [
+                "Root tips grow quickly, so many cells there are dividing",
+                "Onion cells have no nucleus",
+                "Onions don't have chromosomes",
+                "Root tips contain sex cells"
+              ],
+              "answer": 0,
+              "tag": "Mitosis",
+              "explain": "Plants grow at the tips of roots and shoots, so lots of cells there are in the middle of dividing — ideal for spotting the different stages."
+            },
+            {
+              "q": "What is a tumour?",
+              "options": [
+                "A cell that has stopped dividing",
+                "A type of chromosome",
+                "A lump of cells formed when cell division gets out of control",
+                "A plant cell wall"
+              ],
+              "answer": 2,
+              "tag": "Mitosis",
+              "explain": "If a cell's DNA is damaged, it may divide uncontrollably. The resulting lump is a tumour; if it spreads into other tissues, it is cancer."
+            },
+            {
+              "q": "One cell divides by mitosis, then each new cell divides again, and so on. How many cells will there be after 5 rounds of division?",
+              "options": [
+                "10",
+                "32",
+                "25",
+                "16"
+              ],
+              "answer": 1,
+              "tag": "Data skills",
+              "explain": "The number doubles each time: 1 → 2 → 4 → 8 → 16 → 32. That's 2 × 2 × 2 × 2 × 2 = 32. Doubling is why cell numbers can grow so quickly."
+            },
+            {
+              "q": "Recap from last week: why are saucepans made of metal?",
+              "options": [
+                "Metals are good conductors of heat",
+                "Metals are good conductors of electricity",
+                "Metals are brittle",
+                "Metals have low melting points"
+              ],
+              "answer": 0,
+              "tag": "Metals and non-metals",
+              "explain": "A saucepan needs to carry heat from the hob to the food, so it's about conducting heat (thermal conduction). Metals also conduct electricity — but that's why we use them in wires, not pans. The handle is a non-metal because non-metals are poor conductors of heat."
+            }
           ],
           "reflect": [
             "Explain why your body needs mitosis. Give two different examples of it happening.",
@@ -99,25 +227,153 @@
               "Brazil shows that development is not a simple ladder that every country climbs in the same way. It is a country where world-class companies and some of the most advanced farming on Earth exist alongside favelas and drought-hit villages. Over the next sessions you will zoom in on two of its most famous places: the city of **Rio de Janeiro**, and the **Amazon rainforest**."
             ],
             "keywords": [
-              { "term": "NEE", "def": "Newly emerging economy: a country whose economy is growing quickly, between low- and high-income, e.g. Brazil." },
-              { "term": "GNI per capita", "def": "Gross national income per person: the total income of a country's people in a year, divided by its population." },
-              { "term": "Indigenous", "def": "Belonging to the people who lived in a place first, before outsiders arrived." },
-              { "term": "Inequality", "def": "Big differences in wealth or opportunities between different groups of people." },
-              { "term": "Favela", "def": "An informal settlement in a Brazilian city, often built by residents on land they don't own." },
-              { "term": "Sertão", "def": "The hot, dry inland area of north-east Brazil, which suffers from drought." }
+              {
+                "term": "NEE",
+                "def": "Newly emerging economy: a country whose economy is growing quickly, between low- and high-income, e.g. Brazil."
+              },
+              {
+                "term": "GNI per capita",
+                "def": "Gross national income per person: the total income of a country's people in a year, divided by its population."
+              },
+              {
+                "term": "Indigenous",
+                "def": "Belonging to the people who lived in a place first, before outsiders arrived."
+              },
+              {
+                "term": "Inequality",
+                "def": "Big differences in wealth or opportunities between different groups of people."
+              },
+              {
+                "term": "Favela",
+                "def": "An informal settlement in a Brazilian city, often built by residents on land they don't own."
+              },
+              {
+                "term": "Sertão",
+                "def": "The hot, dry inland area of north-east Brazil, which suffers from drought."
+              }
             ]
           },
           "questions": [
-            { "q": "Why do most Brazilians speak Portuguese?", "options": ["Portuguese is the easiest language to learn", "Brazil was colonised by Portugal from 1500", "Brazil is next to Portugal", "It was chosen by vote in 1960"], "answer": 1, "tag": "Brazil: context", "explain": "Portuguese explorers claimed Brazil in 1500, and it was a Portuguese colony until independence in 1822. Most of its neighbours were colonised by Spain." },
-            { "q": "Which is Brazil's poorest region, affected by drought inland?", "options": ["The Southeast", "The South", "The Centre-West", "The Northeast"], "answer": 3, "tag": "Brazil: regions", "explain": "The Northeast includes the dry sertão, which suffers long droughts. It is the poorest region, and many people have migrated from it to cities in the Southeast." },
-            { "q": "What is the capital city of Brazil?", "options": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"], "answer": 0, "tag": "Brazil: context", "explain": "Brasília was purpose-built inland and became the capital in 1960, taking over from Rio de Janeiro. São Paulo is the biggest city, but not the capital." },
-            { "q": "Why is Brazil classed as an NEE (newly emerging economy)?", "options": ["It has the lowest GNI per capita in the world", "It has stopped developing", "Its economy is growing quickly and it sits between low- and high-income countries", "It is in the southern hemisphere"], "answer": 2, "tag": "Brazil: development", "explain": "NEEs are countries whose economies have grown fast but which are not yet as wealthy as HICs. Brazil's GNI per capita (around $9,000) is well above LICs but well below the UK." },
-            { "q": "Brazil's HDI is just under 0.8. What does this suggest?", "options": ["Life in Brazil is identical to life in the UK", "Brazil has very low life expectancy", "Brazil has the highest HDI in the world", "Most people have reasonably good health, education and income, though not as high as in the richest countries"], "answer": 3, "tag": "HDI", "explain": "An HDI close to 0.8 counts as 'high' development. It's below the UK's (about 0.94), but far above the lowest countries (around 0.4)." },
-            { "q": "Brazil's average figures look quite good, yet millions of Brazilians live in poverty. Why?", "options": ["The averages hide very large inequality between rich and poor", "The figures are made up", "Poor people aren't counted in the figures", "Brazil's figures are measured in a different currency"], "answer": 0, "tag": "Brazil: development", "explain": "Brazil is one of the most unequal countries in the world. The richest tenth receive around 40% of all income, so a decent average can hide great poverty — just like the GNI point you made last week." },
-            { "q": "How does Bolsa Família try to reduce poverty?", "options": ["It builds new cities in the rainforest", "It pays poor families a monthly sum if their children attend school and get vaccinated", "It gives free land to every family", "It bans people from moving to cities"], "answer": 1, "tag": "Brazil: development", "explain": "Bolsa Família is a 'conditional cash transfer': families get money, and in return children go to school and get vaccinated. It tackles poverty now and invests in children's futures." },
-            { "q": "Which of these does NOT fit Brazil's economy?", "options": ["World's largest coffee producer", "Major exporter of soya beans and iron ore", "Its economy depends only on one crop", "Makes passenger jets"], "answer": 2, "tag": "Brazil: development", "explain": "Brazil's economy is varied: farming, mining, oil and manufacturing (including aircraft). That variety is one reason it is an NEE rather than an LIC dependent on one export." },
-            { "q": "GNI per capita is around $49,000 in the UK and around $9,000 in Brazil. Roughly how many times larger is the UK's?", "options": ["About 5 times", "About 2 times", "About 40 times", "About 10 times"], "answer": 0, "tag": "Data skills", "explain": "49,000 ÷ 9,000 ≈ 5.4, so about 5 times. Compare that with Niger (around 80 times smaller than the UK) and you can see why Brazil is an NEE, not an LIC." },
-            { "q": "Brazil's area is about 8.5 million km² and the UK's is about 0.24 million km². About how many times bigger is Brazil?", "options": ["About 3.5 times", "About 8 times", "About 350 times", "About 35 times"], "answer": 3, "tag": "Data skills", "explain": "8.5 ÷ 0.24 ≈ 35. You could fit the UK inside Brazil about 35 times." }
+            {
+              "q": "Why do most Brazilians speak Portuguese?",
+              "options": [
+                "Portuguese is the easiest language to learn",
+                "Brazil was colonised by Portugal from 1500",
+                "Brazil is next to Portugal",
+                "It was chosen by vote in 1960"
+              ],
+              "answer": 1,
+              "tag": "Brazil: context",
+              "explain": "Portuguese explorers claimed Brazil in 1500, and it was a Portuguese colony until independence in 1822. Most of its neighbours were colonised by Spain."
+            },
+            {
+              "q": "Which is Brazil's poorest region, affected by drought inland?",
+              "options": [
+                "The Southeast",
+                "The South",
+                "The Centre-West",
+                "The Northeast"
+              ],
+              "answer": 3,
+              "tag": "Brazil: regions",
+              "explain": "The Northeast includes the dry sertão, which suffers long droughts. It is the poorest region, and many people have migrated from it to cities in the Southeast."
+            },
+            {
+              "q": "What is the capital city of Brazil?",
+              "options": [
+                "Brasília",
+                "Rio de Janeiro",
+                "São Paulo",
+                "Salvador"
+              ],
+              "answer": 0,
+              "tag": "Brazil: context",
+              "explain": "Brasília was purpose-built inland and became the capital in 1960, taking over from Rio de Janeiro. São Paulo is the biggest city, but not the capital."
+            },
+            {
+              "q": "Why is Brazil classed as an NEE (newly emerging economy)?",
+              "options": [
+                "It has the lowest GNI per capita in the world",
+                "It has stopped developing",
+                "Its economy is growing quickly and it sits between low- and high-income countries",
+                "It is in the southern hemisphere"
+              ],
+              "answer": 2,
+              "tag": "Brazil: development",
+              "explain": "NEEs are countries whose economies have grown fast but which are not yet as wealthy as HICs. Brazil's GNI per capita (around $9,000) is well above LICs but well below the UK."
+            },
+            {
+              "q": "Brazil's HDI is just under 0.8. What does this suggest?",
+              "options": [
+                "Life in Brazil is identical to life in the UK",
+                "Brazil has very low life expectancy",
+                "Brazil has the highest HDI in the world",
+                "Most people have reasonably good health, education and income, though not as high as in the richest countries"
+              ],
+              "answer": 3,
+              "tag": "HDI",
+              "explain": "An HDI close to 0.8 counts as 'high' development. It's below the UK's (about 0.94), but far above the lowest countries (around 0.4)."
+            },
+            {
+              "q": "Brazil's average figures look quite good, yet millions of Brazilians live in poverty. Why?",
+              "options": [
+                "The averages hide very large inequality between rich and poor",
+                "The figures are made up",
+                "Poor people aren't counted in the figures",
+                "Brazil's figures are measured in a different currency"
+              ],
+              "answer": 0,
+              "tag": "Brazil: development",
+              "explain": "Brazil is one of the most unequal countries in the world. The richest tenth receive around 40% of all income, so a decent average can hide great poverty — just like the GNI point you made last week."
+            },
+            {
+              "q": "How does Bolsa Família try to reduce poverty?",
+              "options": [
+                "It builds new cities in the rainforest",
+                "It pays poor families a monthly sum if their children attend school and get vaccinated",
+                "It gives free land to every family",
+                "It bans people from moving to cities"
+              ],
+              "answer": 1,
+              "tag": "Brazil: development",
+              "explain": "Bolsa Família is a 'conditional cash transfer': families get money, and in return children go to school and get vaccinated. It tackles poverty now and invests in children's futures."
+            },
+            {
+              "q": "Which of these does NOT fit Brazil's economy?",
+              "options": [
+                "World's largest coffee producer",
+                "Major exporter of soya beans and iron ore",
+                "Its economy depends only on one crop",
+                "Makes passenger jets"
+              ],
+              "answer": 2,
+              "tag": "Brazil: development",
+              "explain": "Brazil's economy is varied: farming, mining, oil and manufacturing (including aircraft). That variety is one reason it is an NEE rather than an LIC dependent on one export."
+            },
+            {
+              "q": "GNI per capita is around $49,000 in the UK and around $9,000 in Brazil. Roughly how many times larger is the UK's?",
+              "options": [
+                "About 5 times",
+                "About 2 times",
+                "About 40 times",
+                "About 10 times"
+              ],
+              "answer": 0,
+              "tag": "Data skills",
+              "explain": "49,000 ÷ 9,000 ≈ 5.4, so about 5 times. Compare that with Niger (around 80 times smaller than the UK) and you can see why Brazil is an NEE, not an LIC."
+            },
+            {
+              "q": "Brazil's area is about 8.5 million km² and the UK's is about 0.24 million km². About how many times bigger is Brazil?",
+              "options": [
+                "About 3.5 times",
+                "About 8 times",
+                "About 350 times",
+                "About 35 times"
+              ],
+              "answer": 3,
+              "tag": "Data skills",
+              "explain": "8.5 ÷ 0.24 ≈ 35. You could fit the UK inside Brazil about 35 times."
+            }
           ],
           "reflect": [
             "Brazil is often called a 'country of contrasts'. Give two examples from the article that show why.",
@@ -163,25 +419,153 @@
               "Meiosis creates **variation**: differences between individuals of the same species. That might sound like a happy accident, but it is hugely important. If a disease sweeps through a population, or the climate changes, variation means that some individuals are likely to have features that help them survive. They pass on their genes, and the species carries on. Later this week, you will see how this variation is the raw material for **evolution** — the process that has shaped every living thing on Earth."
             ],
             "keywords": [
-              { "term": "Meiosis", "def": "Cell division that makes four genetically different gametes, each with half the normal number of chromosomes." },
-              { "term": "Gamete", "def": "A sex cell: sperm or egg in animals; pollen or egg cells in plants." },
-              { "term": "Fertilisation", "def": "When the nucleus of a male gamete joins with the nucleus of a female gamete." },
-              { "term": "Crossing over", "def": "When a pair of chromosomes swap sections of DNA during meiosis, creating new combinations of genes." },
-              { "term": "Sex chromosomes", "def": "The pair that decides sex: usually XX in females and XY in males." },
-              { "term": "Variation", "def": "Differences between individuals of the same species." }
+              {
+                "term": "Meiosis",
+                "def": "Cell division that makes four genetically different gametes, each with half the normal number of chromosomes."
+              },
+              {
+                "term": "Gamete",
+                "def": "A sex cell: sperm or egg in animals; pollen or egg cells in plants."
+              },
+              {
+                "term": "Fertilisation",
+                "def": "When the nucleus of a male gamete joins with the nucleus of a female gamete."
+              },
+              {
+                "term": "Crossing over",
+                "def": "When a pair of chromosomes swap sections of DNA during meiosis, creating new combinations of genes."
+              },
+              {
+                "term": "Sex chromosomes",
+                "def": "The pair that decides sex: usually XX in females and XY in males."
+              },
+              {
+                "term": "Variation",
+                "def": "Differences between individuals of the same species."
+              }
             ]
           },
           "questions": [
-            { "q": "What does meiosis produce?", "options": ["Two identical body cells", "Muscle cells for repair", "Four identical cells", "Gametes (sex cells) that are genetically different"], "answer": 3, "tag": "Meiosis", "explain": "Meiosis makes four gametes, each with half the chromosomes and each genetically different. Two identical cells is mitosis." },
-            { "q": "How many chromosomes are in a human sperm or egg cell?", "options": ["46", "23", "92", "12"], "answer": 1, "tag": "Meiosis", "explain": "Gametes have half the normal number: 23. When sperm and egg join, 23 + 23 = 46, the normal number for a body cell." },
-            { "q": "Where does meiosis take place in humans?", "options": ["In the testes and ovaries", "In the skin", "In the bone marrow", "In every cell of the body"], "answer": 0, "tag": "Meiosis", "explain": "Meiosis only happens in reproductive organs, which make gametes. Everywhere else, cells divide by mitosis." },
-            { "q": "Why must gametes have half the normal number of chromosomes?", "options": ["So that they can swim faster", "Because they are smaller than other cells", "So that fertilisation restores the normal number, rather than doubling it", "Because half the chromosomes are damaged"], "answer": 2, "tag": "Meiosis", "explain": "If gametes had 46 chromosomes, the fertilised egg would have 92, and the number would double every generation. Halving then joining keeps it at 46." },
-            { "q": "A dog's body cells have 78 chromosomes. How many chromosomes are in a dog's sperm cell?", "options": ["39", "78", "156", "23"], "answer": 0, "tag": "Meiosis", "explain": "Gametes have half the body-cell number: 78 ÷ 2 = 39. (23 is the human number — different species have different numbers.)" },
-            { "q": "Which of these makes the cells produced by meiosis genetically different from each other?", "options": ["The cells copying their DNA exactly", "Chromosome pairs being sorted randomly, and crossing over", "The cells dividing only once", "The cells being made in the skin"], "answer": 1, "tag": "Variation", "explain": "Random sorting of chromosome pairs, plus crossing over (swapping sections of DNA), mixes up the genes in each gamete. That's why each one is unique." },
-            { "q": "Why are identical twins genetically identical?", "options": ["They come from two eggs fertilised by the same sperm", "They were born on the same day", "They come from two eggs and two sperm", "They come from one fertilised egg that split in two by mitosis"], "answer": 3, "tag": "Variation", "explain": "Identical twins come from a single fertilised egg that splits into two by mitosis, which makes identical copies. Non-identical twins come from two separate eggs and two separate sperm." },
-            { "q": "A baby's sex is decided by:", "options": ["The egg, because eggs carry either X or Y", "The time of year it is born", "Whether the sperm that fertilises the egg carries an X or a Y chromosome", "How many chromosomes the egg has"], "answer": 2, "tag": "Inheritance", "explain": "Every egg carries an X. Half of sperm carry an X (making a girl, XX) and half carry a Y (making a boy, XY). So it's the sperm that decides, with a 50:50 chance." },
-            { "q": "Which row correctly describes mitosis compared with meiosis?", "options": ["Mitosis: 4 different cells; meiosis: 2 identical cells", "Mitosis: 2 identical cells; meiosis: 4 different cells", "Both make 2 identical cells", "Both make 4 different cells"], "answer": 1, "tag": "Meiosis", "explain": "Mitosis — two identical cells with the full number of chromosomes (growth and repair). Meiosis — four different cells with half the number (gametes)." },
-            { "q": "Fruit flies have 4 pairs of chromosomes. With random sorting, the number of combinations in one gamete is 2 × 2 × 2 × 2. How many is that?", "options": ["8", "32", "4", "16"], "answer": 3, "tag": "Data skills", "explain": "2 × 2 × 2 × 2 = 16. For humans, with 23 pairs, it's 2 multiplied by itself 23 times — over 8 million — and that's before crossing over adds even more." }
+            {
+              "q": "What does meiosis produce?",
+              "options": [
+                "Two identical body cells",
+                "Muscle cells for repair",
+                "Four identical cells",
+                "Gametes (sex cells) that are genetically different"
+              ],
+              "answer": 3,
+              "tag": "Meiosis",
+              "explain": "Meiosis makes four gametes, each with half the chromosomes and each genetically different. Two identical cells is mitosis."
+            },
+            {
+              "q": "How many chromosomes are in a human sperm or egg cell?",
+              "options": [
+                "46",
+                "23",
+                "92",
+                "12"
+              ],
+              "answer": 1,
+              "tag": "Meiosis",
+              "explain": "Gametes have half the normal number: 23. When sperm and egg join, 23 + 23 = 46, the normal number for a body cell."
+            },
+            {
+              "q": "Where does meiosis take place in humans?",
+              "options": [
+                "In the testes and ovaries",
+                "In the skin",
+                "In the bone marrow",
+                "In every cell of the body"
+              ],
+              "answer": 0,
+              "tag": "Meiosis",
+              "explain": "Meiosis only happens in reproductive organs, which make gametes. Everywhere else, cells divide by mitosis."
+            },
+            {
+              "q": "Why must gametes have half the normal number of chromosomes?",
+              "options": [
+                "So that they can swim faster",
+                "Because they are smaller than other cells",
+                "So that fertilisation restores the normal number, rather than doubling it",
+                "Because half the chromosomes are damaged"
+              ],
+              "answer": 2,
+              "tag": "Meiosis",
+              "explain": "If gametes had 46 chromosomes, the fertilised egg would have 92, and the number would double every generation. Halving then joining keeps it at 46."
+            },
+            {
+              "q": "A dog's body cells have 78 chromosomes. How many chromosomes are in a dog's sperm cell?",
+              "options": [
+                "39",
+                "78",
+                "156",
+                "23"
+              ],
+              "answer": 0,
+              "tag": "Meiosis",
+              "explain": "Gametes have half the body-cell number: 78 ÷ 2 = 39. (23 is the human number — different species have different numbers.)"
+            },
+            {
+              "q": "Which of these makes the cells produced by meiosis genetically different from each other?",
+              "options": [
+                "The cells copying their DNA exactly",
+                "Chromosome pairs being sorted randomly, and crossing over",
+                "The cells dividing only once",
+                "The cells being made in the skin"
+              ],
+              "answer": 1,
+              "tag": "Variation",
+              "explain": "Random sorting of chromosome pairs, plus crossing over (swapping sections of DNA), mixes up the genes in each gamete. That's why each one is unique."
+            },
+            {
+              "q": "Why are identical twins genetically identical?",
+              "options": [
+                "They come from two eggs fertilised by the same sperm",
+                "They were born on the same day",
+                "They come from two eggs and two sperm",
+                "They come from one fertilised egg that split in two by mitosis"
+              ],
+              "answer": 3,
+              "tag": "Variation",
+              "explain": "Identical twins come from a single fertilised egg that splits into two by mitosis, which makes identical copies. Non-identical twins come from two separate eggs and two separate sperm."
+            },
+            {
+              "q": "A baby's sex is decided by:",
+              "options": [
+                "The egg, because eggs carry either X or Y",
+                "The time of year it is born",
+                "Whether the sperm that fertilises the egg carries an X or a Y chromosome",
+                "How many chromosomes the egg has"
+              ],
+              "answer": 2,
+              "tag": "Inheritance",
+              "explain": "Every egg carries an X. Half of sperm carry an X (making a girl, XX) and half carry a Y (making a boy, XY). So it's the sperm that decides, with a 50:50 chance."
+            },
+            {
+              "q": "Which row correctly describes mitosis compared with meiosis?",
+              "options": [
+                "Mitosis: 4 different cells; meiosis: 2 identical cells",
+                "Mitosis: 2 identical cells; meiosis: 4 different cells",
+                "Both make 2 identical cells",
+                "Both make 4 different cells"
+              ],
+              "answer": 1,
+              "tag": "Meiosis",
+              "explain": "Mitosis — two identical cells with the full number of chromosomes (growth and repair). Meiosis — four different cells with half the number (gametes)."
+            },
+            {
+              "q": "Fruit flies have 4 pairs of chromosomes. With random sorting, the number of combinations in one gamete is 2 × 2 × 2 × 2. How many is that?",
+              "options": [
+                "8",
+                "32",
+                "4",
+                "16"
+              ],
+              "answer": 3,
+              "tag": "Data skills",
+              "explain": "2 × 2 × 2 × 2 = 16. For humans, with 23 pairs, it's 2 multiplied by itself 23 times — over 8 million — and that's before crossing over adds even more."
+            }
           ],
           "reflect": [
             "Explain why sperm and egg cells must have only half the normal number of chromosomes. Use numbers in your answer.",
@@ -229,25 +613,153 @@
               "The most common mistake is only doing something to one side. The second is undoing steps in the wrong order: in 3x + 4 = 19, dividing by 3 first is possible but messy, because you'd have to divide the 4 as well. The third is a sign slip: in x − 8 = 12, you **add** 8 (x = 20), not subtract. Write each step on a new line, keep the equals signs lined up, and always check your answer by substituting it back in."
             ],
             "keywords": [
-              { "term": "Equation", "def": "A statement that two expressions are equal, e.g. 3x + 4 = 19." },
-              { "term": "Unknown / variable", "def": "A letter that stands for a number you need to find." },
-              { "term": "Solve", "def": "Find the value of the unknown that makes the equation true." },
-              { "term": "Inverse operation", "def": "The opposite operation that undoes another: + and −, × and ÷." },
-              { "term": "Substitution", "def": "Putting a number in place of a letter — used to check your answer." },
-              { "term": "Expand", "def": "Multiply out brackets, e.g. 2(x + 3) = 2x + 6." }
+              {
+                "term": "Equation",
+                "def": "A statement that two expressions are equal, e.g. 3x + 4 = 19."
+              },
+              {
+                "term": "Unknown / variable",
+                "def": "A letter that stands for a number you need to find."
+              },
+              {
+                "term": "Solve",
+                "def": "Find the value of the unknown that makes the equation true."
+              },
+              {
+                "term": "Inverse operation",
+                "def": "The opposite operation that undoes another: + and −, × and ÷."
+              },
+              {
+                "term": "Substitution",
+                "def": "Putting a number in place of a letter — used to check your answer."
+              },
+              {
+                "term": "Expand",
+                "def": "Multiply out brackets, e.g. 2(x + 3) = 2x + 6."
+              }
             ]
           },
           "questions": [
-            { "q": "Solve: x + 9 = 23", "options": ["x = 14", "x = 32", "x = 13", "x = 207"], "answer": 0, "tag": "One-step equations", "explain": "Subtract 9 from both sides: x = 23 − 9 = 14. Check: 14 + 9 = 23 ✓. (32 comes from adding instead of subtracting.)" },
-            { "q": "Solve: 6x = 42", "options": ["x = 36", "x = 252", "x = 7", "x = 48"], "answer": 2, "tag": "One-step equations", "explain": "6x means 6 × x, so divide both sides by 6: x = 42 ÷ 6 = 7. Check: 6 × 7 = 42 ✓." },
-            { "q": "Solve: x ÷ 4 = 9", "options": ["x = 2.25", "x = 36", "x = 13", "x = 5"], "answer": 1, "tag": "One-step equations", "explain": "To undo dividing by 4, multiply both sides by 4: x = 9 × 4 = 36. Check: 36 ÷ 4 = 9 ✓." },
-            { "q": "Solve: 2x + 5 = 17", "options": ["x = 11", "x = 8.5", "x = 24", "x = 6"], "answer": 3, "tag": "Two-step equations", "explain": "Subtract 5 first: 2x = 12. Then divide by 2: x = 6. Check: 2 × 6 + 5 = 17 ✓. (8.5 comes from dividing 17 by 2 before dealing with the + 5.)" },
-            { "q": "What should be the first step to solve 3x − 4 = 20?", "options": ["Add 4 to both sides", "Subtract 4 from both sides", "Divide only the left side by 3", "Multiply both sides by 3"], "answer": 0, "tag": "Two-step equations", "explain": "Undo the − 4 first by adding 4 to both sides: 3x = 24. Then divide by 3: x = 8. Work backwards: last thing done, first thing undone." },
-            { "q": "Sam says x = 3 is the solution to 4x + 1 = 15. Is Sam right?", "options": ["Yes, because 4 × 3 + 1 = 15", "No, because 4 × 3 + 1 = 13, not 15", "Yes, because 3 + 1 = 4", "No, because the answer should be negative"], "answer": 1, "tag": "Checking by substitution", "explain": "Substitute x = 3: 4 × 3 + 1 = 12 + 1 = 13, not 15, so Sam is wrong. The correct answer is x = 3.5 (4x = 14, so x = 14 ÷ 4). Checking catches mistakes like this." },
-            { "q": "Solve: 7x − 3 = 4x + 9", "options": ["x = 2", "x = 12", "x = 6", "x = 4"], "answer": 3, "tag": "Unknowns on both sides", "explain": "Subtract 4x from both sides: 3x − 3 = 9. Add 3: 3x = 12. Divide by 3: x = 4. Check: 7 × 4 − 3 = 25 and 4 × 4 + 9 = 25 ✓." },
-            { "q": "Solve: 3(x − 2) = 21", "options": ["x = 5", "x = 7", "x = 9", "x = 23"], "answer": 2, "tag": "Equations with brackets", "explain": "Divide both sides by 3: x − 2 = 7, so x = 9. Or expand: 3x − 6 = 21, 3x = 27, x = 9. Check: 3 × (9 − 2) = 3 × 7 = 21 ✓." },
-            { "q": "'I think of a number, multiply it by 5 and add 8. The answer is 43.' What is the number?", "options": ["7", "10.2", "35", "51"], "answer": 0, "tag": "Forming equations", "explain": "Form the equation: 5n + 8 = 43. Subtract 8: 5n = 35. Divide by 5: n = 7. Check: 5 × 7 + 8 = 43 ✓." },
-            { "q": "A rectangle is x cm wide and (x + 3) cm long. Its perimeter is 26 cm. What is x?", "options": ["x = 11.5", "x = 6.5", "x = 5", "x = 23"], "answer": 2, "tag": "Forming equations", "explain": "Perimeter = x + x + (x + 3) + (x + 3) = 4x + 6. So 4x + 6 = 26, 4x = 20, x = 5. The rectangle is 5 cm by 8 cm, and 5 + 5 + 8 + 8 = 26 ✓." }
+            {
+              "q": "Solve: x + 9 = 23",
+              "options": [
+                "x = 14",
+                "x = 32",
+                "x = 13",
+                "x = 207"
+              ],
+              "answer": 0,
+              "tag": "One-step equations",
+              "explain": "Subtract 9 from both sides: x = 23 − 9 = 14. Check: 14 + 9 = 23 ✓. (32 comes from adding instead of subtracting.)"
+            },
+            {
+              "q": "Solve: 6x = 42",
+              "options": [
+                "x = 36",
+                "x = 252",
+                "x = 7",
+                "x = 48"
+              ],
+              "answer": 2,
+              "tag": "One-step equations",
+              "explain": "6x means 6 × x, so divide both sides by 6: x = 42 ÷ 6 = 7. Check: 6 × 7 = 42 ✓."
+            },
+            {
+              "q": "Solve: x ÷ 4 = 9",
+              "options": [
+                "x = 2.25",
+                "x = 36",
+                "x = 13",
+                "x = 5"
+              ],
+              "answer": 1,
+              "tag": "One-step equations",
+              "explain": "To undo dividing by 4, multiply both sides by 4: x = 9 × 4 = 36. Check: 36 ÷ 4 = 9 ✓."
+            },
+            {
+              "q": "Solve: 2x + 5 = 17",
+              "options": [
+                "x = 11",
+                "x = 8.5",
+                "x = 24",
+                "x = 6"
+              ],
+              "answer": 3,
+              "tag": "Two-step equations",
+              "explain": "Subtract 5 first: 2x = 12. Then divide by 2: x = 6. Check: 2 × 6 + 5 = 17 ✓. (8.5 comes from dividing 17 by 2 before dealing with the + 5.)"
+            },
+            {
+              "q": "What should be the first step to solve 3x − 4 = 20?",
+              "options": [
+                "Add 4 to both sides",
+                "Subtract 4 from both sides",
+                "Divide only the left side by 3",
+                "Multiply both sides by 3"
+              ],
+              "answer": 0,
+              "tag": "Two-step equations",
+              "explain": "Undo the − 4 first by adding 4 to both sides: 3x = 24. Then divide by 3: x = 8. Work backwards: last thing done, first thing undone."
+            },
+            {
+              "q": "Sam says x = 3 is the solution to 4x + 1 = 15. Is Sam right?",
+              "options": [
+                "Yes, because 4 × 3 + 1 = 15",
+                "No, because 4 × 3 + 1 = 13, not 15",
+                "Yes, because 3 + 1 = 4",
+                "No, because the answer should be negative"
+              ],
+              "answer": 1,
+              "tag": "Checking by substitution",
+              "explain": "Substitute x = 3: 4 × 3 + 1 = 12 + 1 = 13, not 15, so Sam is wrong. The correct answer is x = 3.5 (4x = 14, so x = 14 ÷ 4). Checking catches mistakes like this."
+            },
+            {
+              "q": "Solve: 7x − 3 = 4x + 9",
+              "options": [
+                "x = 2",
+                "x = 12",
+                "x = 6",
+                "x = 4"
+              ],
+              "answer": 3,
+              "tag": "Unknowns on both sides",
+              "explain": "Subtract 4x from both sides: 3x − 3 = 9. Add 3: 3x = 12. Divide by 3: x = 4. Check: 7 × 4 − 3 = 25 and 4 × 4 + 9 = 25 ✓."
+            },
+            {
+              "q": "Solve: 3(x − 2) = 21",
+              "options": [
+                "x = 5",
+                "x = 7",
+                "x = 9",
+                "x = 23"
+              ],
+              "answer": 2,
+              "tag": "Equations with brackets",
+              "explain": "Divide both sides by 3: x − 2 = 7, so x = 9. Or expand: 3x − 6 = 21, 3x = 27, x = 9. Check: 3 × (9 − 2) = 3 × 7 = 21 ✓."
+            },
+            {
+              "q": "'I think of a number, multiply it by 5 and add 8. The answer is 43.' What is the number?",
+              "options": [
+                "7",
+                "10.2",
+                "35",
+                "51"
+              ],
+              "answer": 0,
+              "tag": "Forming equations",
+              "explain": "Form the equation: 5n + 8 = 43. Subtract 8: 5n = 35. Divide by 5: n = 7. Check: 5 × 7 + 8 = 43 ✓."
+            },
+            {
+              "q": "A rectangle is x cm wide and (x + 3) cm long. Its perimeter is 26 cm. What is x?",
+              "options": [
+                "x = 11.5",
+                "x = 6.5",
+                "x = 5",
+                "x = 23"
+              ],
+              "answer": 2,
+              "tag": "Forming equations",
+              "explain": "Perimeter = x + x + (x + 3) + (x + 3) = 4x + 6. So 4x + 6 = 26, 4x = 20, x = 5. The rectangle is 5 cm by 8 cm, and 5 + 5 + 8 + 8 = 26 ✓."
+            }
           ],
           "reflect": [
             "Explain, step by step in words, how to solve 5x + 3 = 28. Say what you do to both sides at each step, and how you'd check your answer.",
@@ -291,25 +803,153 @@
               "Rio's story shows the challenges facing fast-growing cities across the world, from Mumbai to Lagos. Rapid urbanisation brings opportunities, such as jobs and services, as well as serious problems. Most geographers now agree that the best solutions work *with* residents, improving the places where they already live, rather than simply clearing them away."
             ],
             "keywords": [
-              { "term": "Urbanisation", "def": "An increase in the proportion of people living in towns and cities." },
-              { "term": "Rural–urban migration", "def": "People moving from the countryside to towns and cities." },
-              { "term": "Push factor", "def": "Something that makes people want to leave a place, e.g. drought or lack of jobs." },
-              { "term": "Pull factor", "def": "Something that attracts people to a place, e.g. jobs, schools or hospitals." },
-              { "term": "Informal settlement", "def": "Housing built by residents on land they don't legally own, without official services." },
-              { "term": "Informal economy", "def": "Work that isn't officially registered or taxed, e.g. street selling, with no guaranteed wage." }
+              {
+                "term": "Urbanisation",
+                "def": "An increase in the proportion of people living in towns and cities."
+              },
+              {
+                "term": "Rural–urban migration",
+                "def": "People moving from the countryside to towns and cities."
+              },
+              {
+                "term": "Push factor",
+                "def": "Something that makes people want to leave a place, e.g. drought or lack of jobs."
+              },
+              {
+                "term": "Pull factor",
+                "def": "Something that attracts people to a place, e.g. jobs, schools or hospitals."
+              },
+              {
+                "term": "Informal settlement",
+                "def": "Housing built by residents on land they don't legally own, without official services."
+              },
+              {
+                "term": "Informal economy",
+                "def": "Work that isn't officially registered or taxed, e.g. street selling, with no guaranteed wage."
+              }
             ]
           },
           "questions": [
-            { "q": "What is urbanisation?", "options": ["Building new roads in the countryside", "People moving from cities to villages", "An increase in the proportion of people living in towns and cities", "The growth of farming"], "answer": 2, "tag": "Urbanisation", "explain": "Urbanisation is about the share of a country's population living in urban areas going up. In Brazil it has risen to almost 9 in 10 people." },
-            { "q": "Which of these is a push factor that made people leave north-east Brazil?", "options": ["Long droughts destroying crops", "Jobs in Rio's factories", "Better hospitals in the city", "Friends who had already moved to Rio"], "answer": 0, "tag": "Urbanisation", "explain": "Push factors drive people away. Drought in the sertão destroyed crops and incomes. The other three are pull factors that attract people to the city." },
-            { "q": "Which of these is a pull factor attracting people to Rio?", "options": ["Mechanised farming", "The chance of a job and better schools", "Big landowners owning most of the land", "Poor health care in the countryside"], "answer": 1, "tag": "Urbanisation", "explain": "Pull factors attract people to a place. Jobs and schools in Rio drew people in; the other options are reasons for leaving the countryside (push factors)." },
-            { "q": "Why did migrants build favelas on steep hillsides and swampy land?", "options": ["Because the views were better", "Because the government ordered them to", "Because the land was the safest in the city", "Because it was empty land that nobody else was using, and they couldn't afford housing"], "answer": 3, "tag": "Favelas", "explain": "There wasn't enough affordable housing, so people built on unused land — often unused precisely because it was steep or wet. That's why some favelas face landslide and flood risks." },
-            { "q": "What is the informal economy?", "options": ["Jobs in government offices", "Work that isn't officially registered, such as street selling, with no guaranteed wage", "Working in a large factory", "Jobs that only happen at weekends"], "answer": 1, "tag": "Favelas", "explain": "Informal jobs aren't registered or taxed, so workers have no contract, sick pay or pension. Many favela residents earn a living this way." },
-            { "q": "What did the Favela-Bairro programme do?", "options": ["Upgraded favelas with paved streets, water pipes, sewers and community centres", "Bulldozed every favela in Rio", "Built a new capital city", "Moved all favela residents to the countryside"], "answer": 0, "tag": "Urban solutions", "explain": "Favela-Bairro ('favela to neighbourhood') improved favelas where they stood, rather than destroying them — keeping communities together near their jobs." },
-            { "q": "Why did moving favela residents to new estates far from the centre often fail?", "options": ["The new homes were too big", "Residents didn't like modern kitchens", "Communities were broken up and the estates were far from people's jobs", "The new estates were too close to the beach"], "answer": 2, "tag": "Urban solutions", "explain": "Favelas may be poor, but they're close to work. Moving people far away meant long, expensive journeys and the loss of the neighbours and networks people relied on." },
-            { "q": "Which of these is a positive feature of many favelas?", "options": ["Open sewers", "Landslide risk", "Gang violence", "Strong communities where neighbours help each other"], "answer": 3, "tag": "Favelas", "explain": "Favelas face real problems, but they are also lively communities with businesses, culture and strong support networks. Good geography answers show both sides." },
-            { "q": "About 6 million people live in Rio, and around one in five live in favelas. Roughly how many is that?", "options": ["About 1.2 million", "About 5 million", "About 600,000", "About 3 million"], "answer": 0, "tag": "Data skills", "explain": "One in five means divide by 5: 6 million ÷ 5 = 1.2 million. That's more than the whole population of Birmingham." },
-            { "q": "In 1950, about 1 in 3 Brazilians lived in towns and cities. Today it's almost 9 in 10. What does this show?", "options": ["Brazil's population has fallen", "Brazil has urbanised very rapidly", "Most Brazilians now live in the Amazon", "Brazil has become less developed"], "answer": 1, "tag": "Data skills", "explain": "The share of people living in urban areas has risen from about a third to almost nine-tenths — that's rapid urbanisation, driven by rural–urban migration and natural increase." }
+            {
+              "q": "What is urbanisation?",
+              "options": [
+                "Building new roads in the countryside",
+                "People moving from cities to villages",
+                "An increase in the proportion of people living in towns and cities",
+                "The growth of farming"
+              ],
+              "answer": 2,
+              "tag": "Urbanisation",
+              "explain": "Urbanisation is about the share of a country's population living in urban areas going up. In Brazil it has risen to almost 9 in 10 people."
+            },
+            {
+              "q": "Which of these is a push factor that made people leave north-east Brazil?",
+              "options": [
+                "Long droughts destroying crops",
+                "Jobs in Rio's factories",
+                "Better hospitals in the city",
+                "Friends who had already moved to Rio"
+              ],
+              "answer": 0,
+              "tag": "Urbanisation",
+              "explain": "Push factors drive people away. Drought in the sertão destroyed crops and incomes. The other three are pull factors that attract people to the city."
+            },
+            {
+              "q": "Which of these is a pull factor attracting people to Rio?",
+              "options": [
+                "Mechanised farming",
+                "The chance of a job and better schools",
+                "Big landowners owning most of the land",
+                "Poor health care in the countryside"
+              ],
+              "answer": 1,
+              "tag": "Urbanisation",
+              "explain": "Pull factors attract people to a place. Jobs and schools in Rio drew people in; the other options are reasons for leaving the countryside (push factors)."
+            },
+            {
+              "q": "Why did migrants build favelas on steep hillsides and swampy land?",
+              "options": [
+                "Because the views were better",
+                "Because the government ordered them to",
+                "Because the land was the safest in the city",
+                "Because it was empty land that nobody else was using, and they couldn't afford housing"
+              ],
+              "answer": 3,
+              "tag": "Favelas",
+              "explain": "There wasn't enough affordable housing, so people built on unused land — often unused precisely because it was steep or wet. That's why some favelas face landslide and flood risks."
+            },
+            {
+              "q": "What is the informal economy?",
+              "options": [
+                "Jobs in government offices",
+                "Work that isn't officially registered, such as street selling, with no guaranteed wage",
+                "Working in a large factory",
+                "Jobs that only happen at weekends"
+              ],
+              "answer": 1,
+              "tag": "Favelas",
+              "explain": "Informal jobs aren't registered or taxed, so workers have no contract, sick pay or pension. Many favela residents earn a living this way."
+            },
+            {
+              "q": "What did the Favela-Bairro programme do?",
+              "options": [
+                "Upgraded favelas with paved streets, water pipes, sewers and community centres",
+                "Bulldozed every favela in Rio",
+                "Built a new capital city",
+                "Moved all favela residents to the countryside"
+              ],
+              "answer": 0,
+              "tag": "Urban solutions",
+              "explain": "Favela-Bairro ('favela to neighbourhood') improved favelas where they stood, rather than destroying them — keeping communities together near their jobs."
+            },
+            {
+              "q": "Why did moving favela residents to new estates far from the centre often fail?",
+              "options": [
+                "The new homes were too big",
+                "Residents didn't like modern kitchens",
+                "Communities were broken up and the estates were far from people's jobs",
+                "The new estates were too close to the beach"
+              ],
+              "answer": 2,
+              "tag": "Urban solutions",
+              "explain": "Favelas may be poor, but they're close to work. Moving people far away meant long, expensive journeys and the loss of the neighbours and networks people relied on."
+            },
+            {
+              "q": "Which of these is a positive feature of many favelas?",
+              "options": [
+                "Open sewers",
+                "Landslide risk",
+                "Gang violence",
+                "Strong communities where neighbours help each other"
+              ],
+              "answer": 3,
+              "tag": "Favelas",
+              "explain": "Favelas face real problems, but they are also lively communities with businesses, culture and strong support networks. Good geography answers show both sides."
+            },
+            {
+              "q": "About 6 million people live in Rio, and around one in five live in favelas. Roughly how many is that?",
+              "options": [
+                "About 1.2 million",
+                "About 5 million",
+                "About 600,000",
+                "About 3 million"
+              ],
+              "answer": 0,
+              "tag": "Data skills",
+              "explain": "One in five means divide by 5: 6 million ÷ 5 = 1.2 million. That's more than the whole population of Birmingham."
+            },
+            {
+              "q": "In 1950, about 1 in 3 Brazilians lived in towns and cities. Today it's almost 9 in 10. What does this show?",
+              "options": [
+                "Brazil's population has fallen",
+                "Brazil has urbanised very rapidly",
+                "Most Brazilians now live in the Amazon",
+                "Brazil has become less developed"
+              ],
+              "answer": 1,
+              "tag": "Data skills",
+              "explain": "The share of people living in urban areas has risen from about a third to almost nine-tenths — that's rapid urbanisation, driven by rural–urban migration and natural increase."
+            }
           ],
           "reflect": [
             "Give one push factor and one pull factor that brought migrants to Rio. Explain how each one affected people's decision to move.",
@@ -350,25 +990,153 @@
               "Here's a short answer that would impress any French teacher: *J'habite à Bristol. C'est une grande ville historique. Il y a un musée, un stade et beaucoup de magasins, mais il n'y a pas de patinoire. J'aime aller au café avec mes amis. D'habitude, je prends un chocolat chaud et une crêpe !* Notice how it uses *il y a*, *il n'y a pas de*, an opinion and a connective. That's the formula: **what there is, what there isn't, and what you think**."
             ],
             "keywords": [
-              { "term": "Je voudrais…", "def": "I would like… (polite way to order)" },
-              { "term": "L'addition, s'il vous plaît", "def": "The bill, please" },
-              { "term": "Il y a…", "def": "There is… / There are…" },
-              { "term": "Il n'y a pas de…", "def": "There isn't / aren't any… (un/une/des become de after a negative)" },
-              { "term": "un / une", "def": "'a' — un for masculine nouns, une for feminine nouns" },
-              { "term": "en face de / à côté de", "def": "opposite / next to" }
+              {
+                "term": "Je voudrais…",
+                "def": "I would like… (polite way to order)"
+              },
+              {
+                "term": "L'addition, s'il vous plaît",
+                "def": "The bill, please"
+              },
+              {
+                "term": "Il y a…",
+                "def": "There is… / There are…"
+              },
+              {
+                "term": "Il n'y a pas de…",
+                "def": "There isn't / aren't any… (un/une/des become de after a negative)"
+              },
+              {
+                "term": "un / une",
+                "def": "'a' — un for masculine nouns, une for feminine nouns"
+              },
+              {
+                "term": "en face de / à côté de",
+                "def": "opposite / next to"
+              }
             ]
           },
           "questions": [
-            { "q": "What is the most polite way to order a hot chocolate?", "options": ["Un chocolat chaud!", "Je voudrais un chocolat chaud, s'il vous plaît.", "Tu veux un chocolat chaud?", "Donne-moi un chocolat chaud."], "answer": 1, "tag": "French: café", "explain": "Je voudrais… s'il vous plaît ('I would like… please') is polite. 'Donne-moi' means 'give me', and 'Tu veux…?' means 'Do you want…?' — both wrong for ordering." },
-            { "q": "What does 'L'addition, s'il vous plaît' mean?", "options": ["Can I add sugar?", "Another one, please", "Where are the toilets?", "The bill, please"], "answer": 3, "tag": "French: café", "explain": "L'addition is the bill. A useful link: you 'add up' what you owe." },
-            { "q": "Which is correct?", "options": ["une café", "un crêpe", "une limonade", "un piscine"], "answer": 2, "tag": "French: gender", "explain": "Limonade is feminine, so it's une limonade. The others should be un café, une crêpe and une piscine. Learn each noun with its un or une." },
-            { "q": "What does 'Il y a' mean?", "options": ["There is / there are", "He has", "I like", "It is"], "answer": 0, "tag": "French: town", "explain": "Il y a means 'there is' or 'there are': Il y a un parc (there is a park), il y a des magasins (there are some shops)." },
-            { "q": "How do you say 'There isn't a swimming pool'?", "options": ["Il n'y a pas une piscine", "Il y a pas piscine", "Il n'y a une piscine pas", "Il n'y a pas de piscine"], "answer": 3, "tag": "French: negatives", "explain": "After a negative (ne… pas), un/une/des change to de. So it's il n'y a pas de piscine — not 'pas une piscine'." },
-            { "q": "What is 'une bibliothèque'?", "options": ["A bookshop", "A cake shop", "A library", "A bakery"], "answer": 2, "tag": "French: town", "explain": "Une bibliothèque is a library. Watch out: a bookshop is une librairie — a classic 'false friend'." },
-            { "q": "Why should you use 'vous' rather than 'tu' with a waiter?", "options": ["Vous is the polite form, used with adults you don't know", "Tu is only used in writing", "Vous means 'please'", "Tu is only for talking about food"], "answer": 0, "tag": "French: café", "explain": "Vous is polite (and also plural). Tu is for friends, family, children and pets. Using tu with a waiter can sound rude." },
-            { "q": "'La bibliothèque est en face de la gare.' Where is the library?", "options": ["Next to the station", "Opposite the station", "Far from the station", "Inside the station"], "answer": 1, "tag": "French: town", "explain": "En face de means 'opposite'. Next to is à côté de, and far from is loin de." },
-            { "q": "Which sentence includes an opinion and a reason?", "options": ["Il y a un parc.", "J'habite à Leeds.", "J'aime ma ville parce que c'est animé.", "Il n'y a pas de cinéma."], "answer": 2, "tag": "French: town", "explain": "J'aime… parce que c'est animé ('I like… because it's lively') gives an opinion (j'aime) and a reason (parce que…). Adding opinions and reasons is how to reach higher marks." },
-            { "q": "You order un café (€2.50) and un croissant (€1.50). The waiter says 'Ça fait quatre euros.' Is that right?", "options": ["Yes — €2.50 + €1.50 = €4", "No — it should be quatorze euros", "No — it should be trois euros", "No — it should be cinq euros"], "answer": 0, "tag": "French: café", "explain": "Quatre = 4, and €2.50 + €1.50 = €4.00. (Quatorze is 14, trois is 3 and cinq is 5.)" }
+            {
+              "q": "What is the most polite way to order a hot chocolate?",
+              "options": [
+                "Un chocolat chaud!",
+                "Je voudrais un chocolat chaud, s'il vous plaît.",
+                "Tu veux un chocolat chaud?",
+                "Donne-moi un chocolat chaud."
+              ],
+              "answer": 1,
+              "tag": "French: café",
+              "explain": "Je voudrais… s'il vous plaît ('I would like… please') is polite. 'Donne-moi' means 'give me', and 'Tu veux…?' means 'Do you want…?' — both wrong for ordering."
+            },
+            {
+              "q": "What does 'L'addition, s'il vous plaît' mean?",
+              "options": [
+                "Can I add sugar?",
+                "Another one, please",
+                "Where are the toilets?",
+                "The bill, please"
+              ],
+              "answer": 3,
+              "tag": "French: café",
+              "explain": "L'addition is the bill. A useful link: you 'add up' what you owe."
+            },
+            {
+              "q": "Which is correct?",
+              "options": [
+                "une café",
+                "un crêpe",
+                "une limonade",
+                "un piscine"
+              ],
+              "answer": 2,
+              "tag": "French: gender",
+              "explain": "Limonade is feminine, so it's une limonade. The others should be un café, une crêpe and une piscine. Learn each noun with its un or une."
+            },
+            {
+              "q": "What does 'Il y a' mean?",
+              "options": [
+                "There is / there are",
+                "He has",
+                "I like",
+                "It is"
+              ],
+              "answer": 0,
+              "tag": "French: town",
+              "explain": "Il y a means 'there is' or 'there are': Il y a un parc (there is a park), il y a des magasins (there are some shops)."
+            },
+            {
+              "q": "How do you say 'There isn't a swimming pool'?",
+              "options": [
+                "Il n'y a pas une piscine",
+                "Il y a pas piscine",
+                "Il n'y a une piscine pas",
+                "Il n'y a pas de piscine"
+              ],
+              "answer": 3,
+              "tag": "French: negatives",
+              "explain": "After a negative (ne… pas), un/une/des change to de. So it's il n'y a pas de piscine — not 'pas une piscine'."
+            },
+            {
+              "q": "What is 'une bibliothèque'?",
+              "options": [
+                "A bookshop",
+                "A cake shop",
+                "A library",
+                "A bakery"
+              ],
+              "answer": 2,
+              "tag": "French: town",
+              "explain": "Une bibliothèque is a library. Watch out: a bookshop is une librairie — a classic 'false friend'."
+            },
+            {
+              "q": "Why should you use 'vous' rather than 'tu' with a waiter?",
+              "options": [
+                "Vous is the polite form, used with adults you don't know",
+                "Tu is only used in writing",
+                "Vous means 'please'",
+                "Tu is only for talking about food"
+              ],
+              "answer": 0,
+              "tag": "French: café",
+              "explain": "Vous is polite (and also plural). Tu is for friends, family, children and pets. Using tu with a waiter can sound rude."
+            },
+            {
+              "q": "'La bibliothèque est en face de la gare.' Where is the library?",
+              "options": [
+                "Next to the station",
+                "Opposite the station",
+                "Far from the station",
+                "Inside the station"
+              ],
+              "answer": 1,
+              "tag": "French: town",
+              "explain": "En face de means 'opposite'. Next to is à côté de, and far from is loin de."
+            },
+            {
+              "q": "Which sentence includes an opinion and a reason?",
+              "options": [
+                "Il y a un parc.",
+                "J'habite à Leeds.",
+                "J'aime ma ville parce que c'est animé.",
+                "Il n'y a pas de cinéma."
+              ],
+              "answer": 2,
+              "tag": "French: town",
+              "explain": "J'aime… parce que c'est animé ('I like… because it's lively') gives an opinion (j'aime) and a reason (parce que…). Adding opinions and reasons is how to reach higher marks."
+            },
+            {
+              "q": "You order un café (€2.50) and un croissant (€1.50). The waiter says 'Ça fait quatre euros.' Is that right?",
+              "options": [
+                "Yes — €2.50 + €1.50 = €4",
+                "No — it should be quatorze euros",
+                "No — it should be trois euros",
+                "No — it should be cinq euros"
+              ],
+              "answer": 0,
+              "tag": "French: café",
+              "explain": "Quatre = 4, and €2.50 + €1.50 = €4.00. (Quatorze is 14, trois is 3 and cinq is 5.)"
+            }
           ],
           "reflect": [
             "Write three sentences in French about a town you know: one with 'il y a', one with 'il n'y a pas de', and one giving your opinion with 'parce que'.",
@@ -383,6 +1151,192 @@
         {
           "id": "2026-11-12-am",
           "slot": "Morning",
+          "subject": "PRE",
+          "topic": "Is it rational to believe in God?",
+          "minutes": 20,
+          "read": {
+            "title": "Is it rational to believe in God?",
+            "intro": "One of the oldest questions people have asked. This isn't about who's right — it's about weighing up the arguments.",
+            "body": [
+              "Billions of people around the world believe in God, and billions do not. Thoughtful, intelligent people are found on both sides. Philosophers have argued about God's existence for thousands of years, and the debate is still going. In PRE, the aim is not to tell you what to believe. It is to understand the arguments, weigh them up, and be able to explain your own view and the views of people who disagree with you.",
+              "## What does 'rational' mean?",
+              "To be **rational** means to base your beliefs on **reasons**: logic and evidence. So the question is not 'Is God real?' — which nobody can prove either way — but 'Are there good reasons to believe in God, or good reasons not to?'",
+              "It helps to know some key words. A **theist** believes in God. An **atheist** believes there is no God. An **agnostic** believes we cannot know whether God exists — the word was invented by the biologist Thomas Huxley, a friend of Darwin, in 1869. The God most often discussed in these arguments is the God of Christianity, Judaism and Islam: all-powerful (**omnipotent**), all-knowing (**omniscient**), all-loving (**omnibenevolent**), and the creator of the universe.",
+              "## Argument 1: the first cause",
+              "Everything we see has a cause. You exist because of your parents; a tree exists because of a seed. But what caused the universe? If every cause has a cause before it, you get a never-ending chain going back for ever. Many philosophers find that idea impossible. So, the argument goes, there must have been a **first cause** that was not itself caused — and that, believers say, is God. This is called the **cosmological argument**. One famous version was written by **Thomas Aquinas**, an Italian monk and philosopher, in the 13th century.",
+              "Some believers point out that science supports part of this. The **Big Bang theory** says the universe had a beginning around 13.8 billion years ago. Interestingly, the scientist who first proposed it, **Georges Lemaître**, was a Catholic priest.",
+              "Critics reply with a simple question: if everything needs a cause, **what caused God?** If believers say God doesn't need a cause, why can't the universe itself just exist without one? Others argue that just because things *inside* the universe have causes, we can't be sure the universe as a whole needs one.",
+              "## Argument 2: design",
+              "In 1802, an English clergyman called **William Paley** asked his readers to imagine finding a watch lying on the ground. Unlike a stone, its parts fit together so precisely for a purpose — telling the time — that you would conclude it had a designer. Paley argued that living things, such as the human eye, are far more complex than any watch, so they must have a designer too: God. This is the **design argument** (or **teleological argument**). Some modern believers add that the laws of physics seem 'fine-tuned' for life: if gravity were slightly stronger or weaker, stars and planets could never have formed.",
+              "The biggest challenge to Paley came from science — you'll meet it properly in this afternoon's session. **Darwin's theory of natural selection** explains how complex living things can develop gradually, without anyone designing them, through small changes over millions of years. Critics also point out that nature contains things that seem badly designed — and a great deal of suffering. Some believers respond that God could have *used* evolution as a way of creating, so there's no contradiction between science and faith.",
+              "## Argument 3: religious experience",
+              "Many people say they have experienced God directly: through prayer, through a sense of overwhelming peace, or through a life-changing moment, such as Saul's conversion on the road to Damascus in the Bible. For believers, this is powerful personal evidence. If you trust your experience that a table is in front of you, why not trust your experience of God?",
+              "Critics say experiences can be explained in other ways — tiredness, emotion, the power of suggestion, or even brain chemistry — and that people of different religions experience very different things, which makes it hard to know which, if any, is real.",
+              "## Argument against: evil and suffering",
+              "The strongest argument against God's existence for many people is the **problem of evil**. It goes back to the ancient Greek philosopher **Epicurus**. If God is all-powerful, God could stop suffering. If God is all-loving, God would want to stop suffering. Yet suffering exists: children die of disease, earthquakes kill thousands. So, the argument says, an all-powerful, all-loving God cannot exist.",
+              "Believers have several replies. One is **free will**: God gave humans the freedom to choose, and much suffering comes from humans choosing to do wrong. Another is that suffering can help people develop courage, compassion and patience. Others say that humans are simply too limited to understand God's reasons. Critics answer that free will doesn't explain natural disasters or disease.",
+              "## Faith and reason",
+              "Some believers say the whole question misses the point. For them, belief in God is a matter of **faith**: trust that goes beyond what can be proved. The 19th-century Danish philosopher **Søren Kierkegaard** called it a 'leap of faith'. The French mathematician **Blaise Pascal** argued that believing is a sensible bet: if God exists, believers gain everything; if not, they lose very little. Critics reply that you can't simply choose to believe something, and that faith without evidence could justify believing anything at all. The philosopher **Bertrand Russell** made this point with his imaginary teapot orbiting the Sun — too small to be seen with any telescope. You can't disprove it, he said, but that doesn't make it reasonable to believe in it.",
+              "## Where does that leave us?",
+              "In the 2021 census, 46% of people in England and Wales described themselves as Christian and 37% said they had no religion — up from 25% ten years earlier. Belief is changing, but the arguments remain. A strong PRE answer doesn't just give one side: it explains the arguments **for** and **against**, evaluates how convincing each is, and reaches a reasoned conclusion of its own."
+            ],
+            "keywords": [
+              {
+                "term": "Rational",
+                "def": "Based on reasons — logic and evidence."
+              },
+              {
+                "term": "Theist / atheist / agnostic",
+                "def": "Believes in God / believes there is no God / believes we can't know."
+              },
+              {
+                "term": "Cosmological argument",
+                "def": "The universe must have a first cause, which is God."
+              },
+              {
+                "term": "Design argument",
+                "def": "The complexity and order of the world suggest a designer, which is God (e.g. Paley's watch)."
+              },
+              {
+                "term": "Problem of evil",
+                "def": "If God is all-powerful and all-loving, why does suffering exist?"
+              },
+              {
+                "term": "Faith",
+                "def": "Trust or belief that goes beyond what can be proved."
+              }
+            ]
+          },
+          "questions": [
+            {
+              "q": "What does it mean for a belief to be 'rational'?",
+              "options": [
+                "It is based on reasons: logic and evidence",
+                "It is believed by most people",
+                "It has been proved true",
+                "It comes from a religious book"
+              ],
+              "answer": 0,
+              "tag": "PRE: key terms",
+              "explain": "A rational belief is backed by reasons. You can hold a rational belief that later turns out wrong — the question is whether the reasons are good."
+            },
+            {
+              "q": "What is an agnostic?",
+              "options": [
+                "Someone who believes in many gods",
+                "Someone who believes there is no God",
+                "Someone who believes we cannot know whether God exists",
+                "A religious leader"
+              ],
+              "answer": 2,
+              "tag": "PRE: key terms",
+              "explain": "An agnostic says we can't know either way. An atheist believes there is no God. The word 'agnostic' was coined by Thomas Huxley in 1869."
+            },
+            {
+              "q": "Which argument says the universe needs a first cause?",
+              "options": [
+                "The design argument",
+                "The problem of evil",
+                "Pascal's wager",
+                "The cosmological argument"
+              ],
+              "answer": 3,
+              "tag": "Arguments for God",
+              "explain": "The cosmological argument (from 'cosmos', the universe) says the chain of causes must start somewhere, with an uncaused cause — God."
+            },
+            {
+              "q": "What was William Paley's watch analogy trying to show?",
+              "options": [
+                "That watches were invented by God",
+                "That complex things with a purpose suggest a designer",
+                "That time began with the Big Bang",
+                "That suffering has a purpose"
+              ],
+              "answer": 1,
+              "tag": "Arguments for God",
+              "explain": "If a watch's complex, purposeful design implies a watchmaker, Paley argued, then the far more complex natural world implies a designer: God."
+            },
+            {
+              "q": "How does Darwin's theory of natural selection challenge the design argument?",
+              "options": [
+                "It explains how complex living things can develop gradually without a designer",
+                "It proves God does not exist",
+                "It shows the universe has no beginning",
+                "It shows that watches evolved"
+              ],
+              "answer": 0,
+              "tag": "Arguments against God",
+              "explain": "Natural selection offers another explanation for complexity, so design isn't the only possibility. It doesn't disprove God — some believers think God works through evolution."
+            },
+            {
+              "q": "What is the problem of evil?",
+              "options": [
+                "Evil people can't be religious",
+                "Religions disagree about what evil is",
+                "Evil only exists in stories",
+                "If God is all-powerful and all-loving, it's hard to explain why suffering exists"
+              ],
+              "answer": 3,
+              "tag": "Arguments against God",
+              "explain": "The problem goes back to Epicurus: a God who could stop suffering and wanted to would stop it — yet suffering exists."
+            },
+            {
+              "q": "Which is a believer's response to the problem of evil?",
+              "options": [
+                "Suffering doesn't really exist",
+                "God gave humans free will, and much suffering comes from human choices",
+                "God is not powerful",
+                "Only animals suffer"
+              ],
+              "answer": 1,
+              "tag": "Arguments against God",
+              "explain": "The free will defence says a world with real choice must allow people to choose wrongly. Critics reply that it doesn't explain earthquakes or disease."
+            },
+            {
+              "q": "What is a weakness of the cosmological argument?",
+              "options": [
+                "It doesn't mention the universe",
+                "It was written too long ago",
+                "If everything needs a cause, it raises the question of what caused God",
+                "It relies on watches"
+              ],
+              "answer": 2,
+              "tag": "Arguments for God",
+              "explain": "If believers say God needs no cause, critics ask why the universe couldn't also exist without one. That's the main challenge to a first-cause argument."
+            },
+            {
+              "q": "What point was Bertrand Russell making with his imaginary teapot orbiting the Sun?",
+              "options": [
+                "Teapots are a good example of design",
+                "Something that can't be disproved isn't automatically reasonable to believe",
+                "Space is full of rubbish",
+                "Faith is always rational"
+              ],
+              "answer": 1,
+              "tag": "Faith and reason",
+              "explain": "You can't disprove a tiny invisible teapot, but that's no reason to believe in it. Russell argued the burden of proof lies with the person making the claim."
+            },
+            {
+              "q": "In England and Wales, 'no religion' rose from about 25% in 2011 to about 37% in 2021. By how many percentage points did it rise?",
+              "options": [
+                "12",
+                "62",
+                "37",
+                "1.5"
+              ],
+              "answer": 0,
+              "tag": "Data skills",
+              "explain": "37 − 25 = 12 percentage points. (62 would be adding them, and 1.5 is roughly how many times larger 37 is than 25.)"
+            }
+          ],
+          "reflect": [
+            "Choose one argument for God's existence and one argument against. Explain each in your own words.",
+            "Can someone be rational and still have faith? Give your own view with a reason, then explain how someone might disagree."
+          ]
+        },
+        {
+          "id": "2026-11-12-pm",
+          "slot": "Afternoon",
           "subject": "Science",
           "topic": "Evolution and natural selection",
           "minutes": 20,
@@ -414,87 +1368,157 @@
               "Evolution by natural selection is one of the most important ideas in science. It explains why living things are so well suited to their environments, why species are related to each other, and how life has changed over billions of years — from simple single cells to the millions of species alive today. It is also why scientists worry about bacteria becoming resistant to antibiotics, which you will meet in Friday's session on the evidence for evolution."
             ],
             "keywords": [
-              { "term": "Evolution", "def": "The gradual change in the characteristics of a species over many generations." },
-              { "term": "Natural selection", "def": "The process where individuals best suited to their environment survive, breed and pass on their characteristics." },
-              { "term": "Adaptation", "def": "A feature that helps an organism survive in its environment, e.g. a seed-cracking beak." },
-              { "term": "Species", "def": "A group of organisms that can breed together to produce fertile offspring." },
-              { "term": "Competition", "def": "When organisms struggle for the same limited resources, such as food, water, space or mates." },
-              { "term": "Charles Darwin", "def": "Naturalist (1809–1882) who explained evolution by natural selection in On the Origin of Species (1859)." }
+              {
+                "term": "Evolution",
+                "def": "The gradual change in the characteristics of a species over many generations."
+              },
+              {
+                "term": "Natural selection",
+                "def": "The process where individuals best suited to their environment survive, breed and pass on their characteristics."
+              },
+              {
+                "term": "Adaptation",
+                "def": "A feature that helps an organism survive in its environment, e.g. a seed-cracking beak."
+              },
+              {
+                "term": "Species",
+                "def": "A group of organisms that can breed together to produce fertile offspring."
+              },
+              {
+                "term": "Competition",
+                "def": "When organisms struggle for the same limited resources, such as food, water, space or mates."
+              },
+              {
+                "term": "Charles Darwin",
+                "def": "Naturalist (1809–1882) who explained evolution by natural selection in On the Origin of Species (1859)."
+              }
             ]
           },
           "questions": [
-            { "q": "Which islands did Darwin visit where he noticed finches with different beaks?", "options": ["The Canary Islands", "The Falkland Islands", "The Isle of Wight", "The Galápagos Islands"], "answer": 3, "tag": "Darwin and the Galápagos", "explain": "The Galápagos Islands, in the Pacific off Ecuador. Each island had its own varieties of finch, tortoise and mockingbird." },
-            { "q": "What is an adaptation?", "options": ["A feature that helps an organism survive in its environment", "A change an animal makes during its life by practising", "A type of fossil", "A disease that kills a species"], "answer": 0, "tag": "Natural selection", "explain": "Adaptations are inherited features that suit an organism to its environment, like a nutcracker beak for hard seeds or white fur in snow." },
-            { "q": "In natural selection, what does 'survival of the fittest' really mean?", "options": ["The strongest animals always win fights", "The fastest animals live longest", "Individuals best suited to their environment are most likely to survive and breed", "Animals that exercise most survive"], "answer": 2, "tag": "Natural selection", "explain": "'Fittest' means best fitted to the environment. A small white rabbit in the snow may be fitter than a big brown one, because foxes can't see it as easily." },
-            { "q": "Who came up with the idea of natural selection at the same time as Darwin?", "options": ["Isaac Newton", "Alfred Russel Wallace", "Jean-Baptiste Lamarck", "Gregor Mendel"], "answer": 1, "tag": "Darwin and the Galápagos", "explain": "Wallace independently reached the same idea, and their work was presented together in 1858. Lamarck had an earlier, incorrect theory." },
-            { "q": "Why is variation essential for natural selection?", "options": ["Without variation, all animals would be the same colour", "Variation makes animals stronger", "Variation stops competition", "If all individuals were identical, none would be better suited than others, so nothing could be 'selected'"], "answer": 3, "tag": "Natural selection", "explain": "Natural selection works by some individuals surviving better than others. That's only possible if they differ. This is where meiosis comes in: it creates the variation that selection acts on." },
-            { "q": "Lamarck said giraffes got long necks by stretching. What is wrong with this idea?", "options": ["Changes made during an animal's life don't change its genes, so they aren't passed on", "Giraffes don't eat leaves", "Giraffes' necks are actually short", "Giraffes can't have babies"], "answer": 0, "tag": "Natural selection", "explain": "Stretching doesn't alter genes, just as a weightlifter's muscles aren't inherited. Instead, giraffes born with slightly longer necks survived better and passed that feature on." },
-            { "q": "Rabbits in a snowy area vary in fur colour. Foxes hunt them. What would you expect after many generations?", "options": ["The rabbits will choose to grow white fur", "The proportion of white-furred rabbits will increase", "All the rabbits will become brown", "Nothing will change"], "answer": 1, "tag": "Natural selection", "explain": "White rabbits are harder to spot, so more survive to breed and pass on white fur. Over generations, white fur becomes more common. The rabbits don't choose anything — survival does the selecting." },
-            { "q": "What happened to Darwin's finches on Daphne Major after the 1977 drought?", "options": ["They all moved to another island", "Small-beaked birds survived best", "The average beak size of the next generation got larger", "Their beaks stretched while they were eating"], "answer": 2, "tag": "Darwin and the Galápagos", "explain": "Only large, hard seeds were left, so birds with bigger beaks survived and bred. Their chicks inherited bigger beaks, so the average went up — natural selection seen in one generation." },
-            { "q": "Which sentence about evolution is correct?", "options": ["An individual animal evolves during its lifetime", "Animals evolve because they want to", "Evolution only happened in the past", "Populations evolve over many generations"], "answer": 3, "tag": "Natural selection", "explain": "Individuals don't evolve; populations do, as the proportions of different characteristics change over generations. And evolution is still happening — the Grants' finches show that." },
-            { "q": "Darwin visited the Galápagos in 1835 and published On the Origin of Species in 1859. How long did he wait?", "options": ["14 years", "24 years", "34 years", "4 years"], "answer": 1, "tag": "Data skills", "explain": "1859 − 1835 = 24 years. Darwin spent those years collecting evidence because he knew his idea would be challenged." }
+            {
+              "q": "Which islands did Darwin visit where he noticed finches with different beaks?",
+              "options": [
+                "The Canary Islands",
+                "The Falkland Islands",
+                "The Isle of Wight",
+                "The Galápagos Islands"
+              ],
+              "answer": 3,
+              "tag": "Darwin and the Galápagos",
+              "explain": "The Galápagos Islands, in the Pacific off Ecuador. Each island had its own varieties of finch, tortoise and mockingbird."
+            },
+            {
+              "q": "What is an adaptation?",
+              "options": [
+                "A feature that helps an organism survive in its environment",
+                "A change an animal makes during its life by practising",
+                "A type of fossil",
+                "A disease that kills a species"
+              ],
+              "answer": 0,
+              "tag": "Natural selection",
+              "explain": "Adaptations are inherited features that suit an organism to its environment, like a nutcracker beak for hard seeds or white fur in snow."
+            },
+            {
+              "q": "In natural selection, what does 'survival of the fittest' really mean?",
+              "options": [
+                "The strongest animals always win fights",
+                "The fastest animals live longest",
+                "Individuals best suited to their environment are most likely to survive and breed",
+                "Animals that exercise most survive"
+              ],
+              "answer": 2,
+              "tag": "Natural selection",
+              "explain": "'Fittest' means best fitted to the environment. A small white rabbit in the snow may be fitter than a big brown one, because foxes can't see it as easily."
+            },
+            {
+              "q": "Who came up with the idea of natural selection at the same time as Darwin?",
+              "options": [
+                "Isaac Newton",
+                "Alfred Russel Wallace",
+                "Jean-Baptiste Lamarck",
+                "Gregor Mendel"
+              ],
+              "answer": 1,
+              "tag": "Darwin and the Galápagos",
+              "explain": "Wallace independently reached the same idea, and their work was presented together in 1858. Lamarck had an earlier, incorrect theory."
+            },
+            {
+              "q": "Why is variation essential for natural selection?",
+              "options": [
+                "Without variation, all animals would be the same colour",
+                "Variation makes animals stronger",
+                "Variation stops competition",
+                "If all individuals were identical, none would be better suited than others, so nothing could be 'selected'"
+              ],
+              "answer": 3,
+              "tag": "Natural selection",
+              "explain": "Natural selection works by some individuals surviving better than others. That's only possible if they differ. This is where meiosis comes in: it creates the variation that selection acts on."
+            },
+            {
+              "q": "Lamarck said giraffes got long necks by stretching. What is wrong with this idea?",
+              "options": [
+                "Changes made during an animal's life don't change its genes, so they aren't passed on",
+                "Giraffes don't eat leaves",
+                "Giraffes' necks are actually short",
+                "Giraffes can't have babies"
+              ],
+              "answer": 0,
+              "tag": "Natural selection",
+              "explain": "Stretching doesn't alter genes, just as a weightlifter's muscles aren't inherited. Instead, giraffes born with slightly longer necks survived better and passed that feature on."
+            },
+            {
+              "q": "Rabbits in a snowy area vary in fur colour. Foxes hunt them. What would you expect after many generations?",
+              "options": [
+                "The rabbits will choose to grow white fur",
+                "The proportion of white-furred rabbits will increase",
+                "All the rabbits will become brown",
+                "Nothing will change"
+              ],
+              "answer": 1,
+              "tag": "Natural selection",
+              "explain": "White rabbits are harder to spot, so more survive to breed and pass on white fur. Over generations, white fur becomes more common. The rabbits don't choose anything — survival does the selecting."
+            },
+            {
+              "q": "What happened to Darwin's finches on Daphne Major after the 1977 drought?",
+              "options": [
+                "They all moved to another island",
+                "Small-beaked birds survived best",
+                "The average beak size of the next generation got larger",
+                "Their beaks stretched while they were eating"
+              ],
+              "answer": 2,
+              "tag": "Darwin and the Galápagos",
+              "explain": "Only large, hard seeds were left, so birds with bigger beaks survived and bred. Their chicks inherited bigger beaks, so the average went up — natural selection seen in one generation."
+            },
+            {
+              "q": "Which sentence about evolution is correct?",
+              "options": [
+                "An individual animal evolves during its lifetime",
+                "Animals evolve because they want to",
+                "Evolution only happened in the past",
+                "Populations evolve over many generations"
+              ],
+              "answer": 3,
+              "tag": "Natural selection",
+              "explain": "Individuals don't evolve; populations do, as the proportions of different characteristics change over generations. And evolution is still happening — the Grants' finches show that."
+            },
+            {
+              "q": "Darwin visited the Galápagos in 1835 and published On the Origin of Species in 1859. How long did he wait?",
+              "options": [
+                "14 years",
+                "24 years",
+                "34 years",
+                "4 years"
+              ],
+              "answer": 1,
+              "tag": "Data skills",
+              "explain": "1859 − 1835 = 24 years. Darwin spent those years collecting evidence because he knew his idea would be challenged."
+            }
           ],
           "reflect": [
             "Explain the steps of natural selection using your own made-up example (for example, beetles, birds or plants). Use the words 'variation', 'survive' and 'pass on'.",
             "Explain why a giraffe stretching its neck does not give its babies longer necks, and what really happened instead."
-          ]
-        },
-        {
-          "id": "2026-11-12-pm",
-          "slot": "Afternoon",
-          "subject": "PRE",
-          "topic": "Is it rational to believe in God?",
-          "minutes": 20,
-          "read": {
-            "title": "Is it rational to believe in God?",
-            "intro": "One of the oldest questions people have asked. This isn't about who's right — it's about weighing up the arguments.",
-            "body": [
-              "Billions of people around the world believe in God, and billions do not. Thoughtful, intelligent people are found on both sides. Philosophers have argued about God's existence for thousands of years, and the debate is still going. In PRE, the aim is not to tell you what to believe. It is to understand the arguments, weigh them up, and be able to explain your own view and the views of people who disagree with you.",
-              "## What does 'rational' mean?",
-              "To be **rational** means to base your beliefs on **reasons**: logic and evidence. So the question is not 'Is God real?' — which nobody can prove either way — but 'Are there good reasons to believe in God, or good reasons not to?'",
-              "It helps to know some key words. A **theist** believes in God. An **atheist** believes there is no God. An **agnostic** believes we cannot know whether God exists — the word was invented by the biologist Thomas Huxley, a friend of Darwin, in 1869. The God most often discussed in these arguments is the God of Christianity, Judaism and Islam: all-powerful (**omnipotent**), all-knowing (**omniscient**), all-loving (**omnibenevolent**), and the creator of the universe.",
-              "## Argument 1: the first cause",
-              "Everything we see has a cause. You exist because of your parents; a tree exists because of a seed. But what caused the universe? If every cause has a cause before it, you get a never-ending chain going back for ever. Many philosophers find that idea impossible. So, the argument goes, there must have been a **first cause** that was not itself caused — and that, believers say, is God. This is called the **cosmological argument**. One famous version was written by **Thomas Aquinas**, an Italian monk and philosopher, in the 13th century.",
-              "Some believers point out that science supports part of this. The **Big Bang theory** says the universe had a beginning around 13.8 billion years ago. Interestingly, the scientist who first proposed it, **Georges Lemaître**, was a Catholic priest.",
-              "Critics reply with a simple question: if everything needs a cause, **what caused God?** If believers say God doesn't need a cause, why can't the universe itself just exist without one? Others argue that just because things *inside* the universe have causes, we can't be sure the universe as a whole needs one.",
-              "## Argument 2: design",
-              "In 1802, an English clergyman called **William Paley** asked his readers to imagine finding a watch lying on the ground. Unlike a stone, its parts fit together so precisely for a purpose — telling the time — that you would conclude it had a designer. Paley argued that living things, such as the human eye, are far more complex than any watch, so they must have a designer too: God. This is the **design argument** (or **teleological argument**). Some modern believers add that the laws of physics seem 'fine-tuned' for life: if gravity were slightly stronger or weaker, stars and planets could never have formed.",
-              "The biggest challenge to Paley came from the science you studied this morning. **Darwin's theory of natural selection** explains how complex living things can develop gradually, without anyone designing them, through small changes over millions of years. Critics also point out that nature contains things that seem badly designed — and a great deal of suffering. Some believers respond that God could have *used* evolution as a way of creating, so there's no contradiction between science and faith.",
-              "## Argument 3: religious experience",
-              "Many people say they have experienced God directly: through prayer, through a sense of overwhelming peace, or through a life-changing moment, such as Saul's conversion on the road to Damascus in the Bible. For believers, this is powerful personal evidence. If you trust your experience that a table is in front of you, why not trust your experience of God?",
-              "Critics say experiences can be explained in other ways — tiredness, emotion, the power of suggestion, or even brain chemistry — and that people of different religions experience very different things, which makes it hard to know which, if any, is real.",
-              "## Argument against: evil and suffering",
-              "The strongest argument against God's existence for many people is the **problem of evil**. It goes back to the ancient Greek philosopher **Epicurus**. If God is all-powerful, God could stop suffering. If God is all-loving, God would want to stop suffering. Yet suffering exists: children die of disease, earthquakes kill thousands. So, the argument says, an all-powerful, all-loving God cannot exist.",
-              "Believers have several replies. One is **free will**: God gave humans the freedom to choose, and much suffering comes from humans choosing to do wrong. Another is that suffering can help people develop courage, compassion and patience. Others say that humans are simply too limited to understand God's reasons. Critics answer that free will doesn't explain natural disasters or disease.",
-              "## Faith and reason",
-              "Some believers say the whole question misses the point. For them, belief in God is a matter of **faith**: trust that goes beyond what can be proved. The 19th-century Danish philosopher **Søren Kierkegaard** called it a 'leap of faith'. The French mathematician **Blaise Pascal** argued that believing is a sensible bet: if God exists, believers gain everything; if not, they lose very little. Critics reply that you can't simply choose to believe something, and that faith without evidence could justify believing anything at all. The philosopher **Bertrand Russell** made this point with his imaginary teapot orbiting the Sun — too small to be seen with any telescope. You can't disprove it, he said, but that doesn't make it reasonable to believe in it.",
-              "## Where does that leave us?",
-              "In the 2021 census, 46% of people in England and Wales described themselves as Christian and 37% said they had no religion — up from 25% ten years earlier. Belief is changing, but the arguments remain. A strong PRE answer doesn't just give one side: it explains the arguments **for** and **against**, evaluates how convincing each is, and reaches a reasoned conclusion of its own."
-            ],
-            "keywords": [
-              { "term": "Rational", "def": "Based on reasons — logic and evidence." },
-              { "term": "Theist / atheist / agnostic", "def": "Believes in God / believes there is no God / believes we can't know." },
-              { "term": "Cosmological argument", "def": "The universe must have a first cause, which is God." },
-              { "term": "Design argument", "def": "The complexity and order of the world suggest a designer, which is God (e.g. Paley's watch)." },
-              { "term": "Problem of evil", "def": "If God is all-powerful and all-loving, why does suffering exist?" },
-              { "term": "Faith", "def": "Trust or belief that goes beyond what can be proved." }
-            ]
-          },
-          "questions": [
-            { "q": "What does it mean for a belief to be 'rational'?", "options": ["It is based on reasons: logic and evidence", "It is believed by most people", "It has been proved true", "It comes from a religious book"], "answer": 0, "tag": "PRE: key terms", "explain": "A rational belief is backed by reasons. You can hold a rational belief that later turns out wrong — the question is whether the reasons are good." },
-            { "q": "What is an agnostic?", "options": ["Someone who believes in many gods", "Someone who believes there is no God", "Someone who believes we cannot know whether God exists", "A religious leader"], "answer": 2, "tag": "PRE: key terms", "explain": "An agnostic says we can't know either way. An atheist believes there is no God. The word 'agnostic' was coined by Thomas Huxley in 1869." },
-            { "q": "Which argument says the universe needs a first cause?", "options": ["The design argument", "The problem of evil", "Pascal's wager", "The cosmological argument"], "answer": 3, "tag": "Arguments for God", "explain": "The cosmological argument (from 'cosmos', the universe) says the chain of causes must start somewhere, with an uncaused cause — God." },
-            { "q": "What was William Paley's watch analogy trying to show?", "options": ["That watches were invented by God", "That complex things with a purpose suggest a designer", "That time began with the Big Bang", "That suffering has a purpose"], "answer": 1, "tag": "Arguments for God", "explain": "If a watch's complex, purposeful design implies a watchmaker, Paley argued, then the far more complex natural world implies a designer: God." },
-            { "q": "How does Darwin's theory of natural selection challenge the design argument?", "options": ["It explains how complex living things can develop gradually without a designer", "It proves God does not exist", "It shows the universe has no beginning", "It shows that watches evolved"], "answer": 0, "tag": "Arguments against God", "explain": "Natural selection offers another explanation for complexity, so design isn't the only possibility. It doesn't disprove God — some believers think God works through evolution." },
-            { "q": "What is the problem of evil?", "options": ["Evil people can't be religious", "Religions disagree about what evil is", "Evil only exists in stories", "If God is all-powerful and all-loving, it's hard to explain why suffering exists"], "answer": 3, "tag": "Arguments against God", "explain": "The problem goes back to Epicurus: a God who could stop suffering and wanted to would stop it — yet suffering exists." },
-            { "q": "Which is a believer's response to the problem of evil?", "options": ["Suffering doesn't really exist", "God gave humans free will, and much suffering comes from human choices", "God is not powerful", "Only animals suffer"], "answer": 1, "tag": "Arguments against God", "explain": "The free will defence says a world with real choice must allow people to choose wrongly. Critics reply that it doesn't explain earthquakes or disease." },
-            { "q": "What is a weakness of the cosmological argument?", "options": ["It doesn't mention the universe", "It was written too long ago", "If everything needs a cause, it raises the question of what caused God", "It relies on watches"], "answer": 2, "tag": "Arguments for God", "explain": "If believers say God needs no cause, critics ask why the universe couldn't also exist without one. That's the main challenge to a first-cause argument." },
-            { "q": "What point was Bertrand Russell making with his imaginary teapot orbiting the Sun?", "options": ["Teapots are a good example of design", "Something that can't be disproved isn't automatically reasonable to believe", "Space is full of rubbish", "Faith is always rational"], "answer": 1, "tag": "Faith and reason", "explain": "You can't disprove a tiny invisible teapot, but that's no reason to believe in it. Russell argued the burden of proof lies with the person making the claim." },
-            { "q": "In England and Wales, 'no religion' rose from about 25% in 2011 to about 37% in 2021. By how many percentage points did it rise?", "options": ["12", "62", "37", "1.5"], "answer": 0, "tag": "Data skills", "explain": "37 − 25 = 12 percentage points. (62 would be adding them, and 1.5 is roughly how many times larger 37 is than 25.)" }
-          ],
-          "reflect": [
-            "Choose one argument for God's existence and one argument against. Explain each in your own words.",
-            "Can someone be rational and still have faith? Give your own view with a reason, then explain how someone might disagree."
           ]
         }
       ]
@@ -537,25 +1561,153 @@
               "Whether these efforts succeed will depend on choices made by governments, companies and consumers — including the people who buy beef, soya and furniture in countries thousands of miles away."
             ],
             "keywords": [
-              { "term": "Deforestation", "def": "Cutting down or clearing large areas of forest." },
-              { "term": "Biodiversity", "def": "The variety of plant and animal life in an area." },
-              { "term": "Carbon store", "def": "Something that holds carbon, keeping it out of the atmosphere, e.g. trees." },
-              { "term": "Transpiration", "def": "Water moving up through a plant and evaporating from its leaves." },
-              { "term": "Leaching", "def": "When rain washes nutrients out of the soil." },
-              { "term": "Sustainable", "def": "Meeting people's needs today without damaging the ability of future generations to meet theirs." }
+              {
+                "term": "Deforestation",
+                "def": "Cutting down or clearing large areas of forest."
+              },
+              {
+                "term": "Biodiversity",
+                "def": "The variety of plant and animal life in an area."
+              },
+              {
+                "term": "Carbon store",
+                "def": "Something that holds carbon, keeping it out of the atmosphere, e.g. trees."
+              },
+              {
+                "term": "Transpiration",
+                "def": "Water moving up through a plant and evaporating from its leaves."
+              },
+              {
+                "term": "Leaching",
+                "def": "When rain washes nutrients out of the soil."
+              },
+              {
+                "term": "Sustainable",
+                "def": "Meeting people's needs today without damaging the ability of future generations to meet theirs."
+              }
             ]
           },
           "questions": [
-            { "q": "What is the biggest cause of deforestation in the Amazon?", "options": ["Building schools", "Cattle ranching", "Ecotourism", "Harvesting Brazil nuts"], "answer": 1, "tag": "Amazon: causes", "explain": "Most cleared land in the Amazon becomes pasture for beef cattle. Soya farming, logging and mining are also major causes." },
-            { "q": "Is it true that the Amazon produces 20% of the world's oxygen?", "options": ["Yes, exactly 20%", "Yes, it produces all the world's oxygen", "No — it's a myth, because the forest uses almost as much oxygen as it makes", "No — rainforests don't produce any oxygen"], "answer": 2, "tag": "Amazon: importance", "explain": "The forest does produce oxygen by photosynthesis, but plants, animals and decay use almost all of it. The Amazon's real global importance is as a carbon store and rain-maker." },
-            { "q": "Why does cutting down the Amazon add to climate change?", "options": ["Carbon stored in the trees is released as carbon dioxide when they are burned or rot", "Trees block the sun's heat", "Cattle are colder than trees", "Rivers get warmer without trees"], "answer": 0, "tag": "Amazon: effects", "explain": "The trees are a huge carbon store. Burning or rotting releases that carbon as CO₂, a greenhouse gas." },
-            { "q": "Why does cleared rainforest land often become poor for farming within a few years?", "options": ["Cattle eat the soil", "It is too cold for crops", "Farmers are not allowed to use it", "The soil is thin, and heavy rain washes the nutrients away (leaching)"], "answer": 3, "tag": "Amazon: effects", "explain": "Most nutrients are in the living plants, not the soil. Once the trees go, rain leaches nutrients away, so farmers often clear more forest." },
-            { "q": "How do roads such as the Trans-Amazonian Highway increase deforestation?", "options": ["They are made of wood", "They open up the forest to settlers, loggers and farmers", "They block rivers", "They cause earthquakes"], "answer": 1, "tag": "Amazon: causes", "explain": "Roads give access. Once a road is built, people follow it into the forest and clear land on either side." },
-            { "q": "Why might the Brazilian government support some development in the Amazon?", "options": ["Because rainforests are useless", "Because nobody lives there", "Because it creates jobs and money that help the country develop", "Because the UK told them to"], "answer": 2, "tag": "Amazon: viewpoints", "explain": "Farming, mining and energy bring jobs and tax income for schools and hospitals. Good answers recognise that different groups have different, often reasonable, points of view." },
-            { "q": "Which of these is a sustainable way to use the rainforest?", "options": ["Harvesting Brazil nuts and açaí berries", "Clearing land for cattle", "Illegal gold mining", "Burning trees to make space for soya"], "answer": 0, "tag": "Amazon: solutions", "explain": "Harvesting nuts and fruit earns money while leaving the forest standing, so it can continue for generations." },
-            { "q": "What is meant by a 'tipping point' for the Amazon?", "options": ["The point where tourists stop visiting", "The point where the forest is fully protected", "The highest point in the Amazon", "If too much forest is lost, the rest may not make enough rain and could turn to savanna"], "answer": 3, "tag": "Amazon: effects", "explain": "The forest helps make its own rain. Lose too much, and the remaining forest could dry out — a change that might be impossible to reverse." },
-            { "q": "Deforestation was about 27,800 km² in 2004 and about 4,600 km² in 2012. Roughly what fraction of the 2004 rate was the 2012 rate?", "options": ["About a half", "About a sixth", "About a third", "About a twentieth"], "answer": 1, "tag": "Data skills", "explain": "4,600 ÷ 27,800 ≈ 0.17, which is about 1/6. In other words, the yearly loss fell by more than four-fifths." },
-            { "q": "The Amazon covers about 5.5 million km². About 60% is in Brazil. Roughly how much is that?", "options": ["About 0.6 million km²", "About 33 million km²", "About 2.2 million km²", "About 3.3 million km²"], "answer": 3, "tag": "Data skills", "explain": "60% of 5.5 million = 0.6 × 5.5 = 3.3 million km². A quick way: 10% is 0.55, so 60% is 6 × 0.55 = 3.3." }
+            {
+              "q": "What is the biggest cause of deforestation in the Amazon?",
+              "options": [
+                "Building schools",
+                "Cattle ranching",
+                "Ecotourism",
+                "Harvesting Brazil nuts"
+              ],
+              "answer": 1,
+              "tag": "Amazon: causes",
+              "explain": "Most cleared land in the Amazon becomes pasture for beef cattle. Soya farming, logging and mining are also major causes."
+            },
+            {
+              "q": "Is it true that the Amazon produces 20% of the world's oxygen?",
+              "options": [
+                "Yes, exactly 20%",
+                "Yes, it produces all the world's oxygen",
+                "No — it's a myth, because the forest uses almost as much oxygen as it makes",
+                "No — rainforests don't produce any oxygen"
+              ],
+              "answer": 2,
+              "tag": "Amazon: importance",
+              "explain": "The forest does produce oxygen by photosynthesis, but plants, animals and decay use almost all of it. The Amazon's real global importance is as a carbon store and rain-maker."
+            },
+            {
+              "q": "Why does cutting down the Amazon add to climate change?",
+              "options": [
+                "Carbon stored in the trees is released as carbon dioxide when they are burned or rot",
+                "Trees block the sun's heat",
+                "Cattle are colder than trees",
+                "Rivers get warmer without trees"
+              ],
+              "answer": 0,
+              "tag": "Amazon: effects",
+              "explain": "The trees are a huge carbon store. Burning or rotting releases that carbon as CO₂, a greenhouse gas."
+            },
+            {
+              "q": "Why does cleared rainforest land often become poor for farming within a few years?",
+              "options": [
+                "Cattle eat the soil",
+                "It is too cold for crops",
+                "Farmers are not allowed to use it",
+                "The soil is thin, and heavy rain washes the nutrients away (leaching)"
+              ],
+              "answer": 3,
+              "tag": "Amazon: effects",
+              "explain": "Most nutrients are in the living plants, not the soil. Once the trees go, rain leaches nutrients away, so farmers often clear more forest."
+            },
+            {
+              "q": "How do roads such as the Trans-Amazonian Highway increase deforestation?",
+              "options": [
+                "They are made of wood",
+                "They open up the forest to settlers, loggers and farmers",
+                "They block rivers",
+                "They cause earthquakes"
+              ],
+              "answer": 1,
+              "tag": "Amazon: causes",
+              "explain": "Roads give access. Once a road is built, people follow it into the forest and clear land on either side."
+            },
+            {
+              "q": "Why might the Brazilian government support some development in the Amazon?",
+              "options": [
+                "Because rainforests are useless",
+                "Because nobody lives there",
+                "Because it creates jobs and money that help the country develop",
+                "Because the UK told them to"
+              ],
+              "answer": 2,
+              "tag": "Amazon: viewpoints",
+              "explain": "Farming, mining and energy bring jobs and tax income for schools and hospitals. Good answers recognise that different groups have different, often reasonable, points of view."
+            },
+            {
+              "q": "Which of these is a sustainable way to use the rainforest?",
+              "options": [
+                "Harvesting Brazil nuts and açaí berries",
+                "Clearing land for cattle",
+                "Illegal gold mining",
+                "Burning trees to make space for soya"
+              ],
+              "answer": 0,
+              "tag": "Amazon: solutions",
+              "explain": "Harvesting nuts and fruit earns money while leaving the forest standing, so it can continue for generations."
+            },
+            {
+              "q": "What is meant by a 'tipping point' for the Amazon?",
+              "options": [
+                "The point where tourists stop visiting",
+                "The point where the forest is fully protected",
+                "The highest point in the Amazon",
+                "If too much forest is lost, the rest may not make enough rain and could turn to savanna"
+              ],
+              "answer": 3,
+              "tag": "Amazon: effects",
+              "explain": "The forest helps make its own rain. Lose too much, and the remaining forest could dry out — a change that might be impossible to reverse."
+            },
+            {
+              "q": "Deforestation was about 27,800 km² in 2004 and about 4,600 km² in 2012. Roughly what fraction of the 2004 rate was the 2012 rate?",
+              "options": [
+                "About a half",
+                "About a sixth",
+                "About a third",
+                "About a twentieth"
+              ],
+              "answer": 1,
+              "tag": "Data skills",
+              "explain": "4,600 ÷ 27,800 ≈ 0.17, which is about 1/6. In other words, the yearly loss fell by more than four-fifths."
+            },
+            {
+              "q": "The Amazon covers about 5.5 million km². About 60% is in Brazil. Roughly how much is that?",
+              "options": [
+                "About 0.6 million km²",
+                "About 33 million km²",
+                "About 2.2 million km²",
+                "About 3.3 million km²"
+              ],
+              "answer": 3,
+              "tag": "Data skills",
+              "explain": "60% of 5.5 million = 0.6 × 5.5 = 3.3 million km². A quick way: 10% is 0.55, so 60% is 6 × 0.55 = 3.3."
+            }
           ],
           "reflect": [
             "Explain two reasons why the Amazon is being cleared, and why each matters to the people doing the clearing.",
@@ -593,25 +1745,153 @@
               "Each piece of evidence on its own is interesting. Together, they are powerful: fossils show change over time in the right order; body plans and DNA show species are related; and peppered moths and superbugs show natural selection happening right now. That's why evolution is accepted by scientists across the world, including many who are religious. As you saw in PRE, the arguments about what evolution means for belief in God continue — but the evidence that species evolve is overwhelming."
             ],
             "keywords": [
-              { "term": "Fossil", "def": "The preserved remains or traces of an organism from long ago, usually in rock." },
-              { "term": "Transitional fossil", "def": "A fossil showing features of two different groups, e.g. Archaeopteryx (dinosaur and bird)." },
-              { "term": "Pentadactyl limb", "def": "A limb with a five-digit bone pattern, shared by many vertebrates, e.g. human arms and bat wings." },
-              { "term": "Mutation", "def": "A random change in DNA. Mutations create new variation." },
-              { "term": "Antibiotic", "def": "A medicine that kills bacteria (but not viruses)." },
-              { "term": "Resistant", "def": "Not affected by something, e.g. bacteria that an antibiotic can no longer kill." }
+              {
+                "term": "Fossil",
+                "def": "The preserved remains or traces of an organism from long ago, usually in rock."
+              },
+              {
+                "term": "Transitional fossil",
+                "def": "A fossil showing features of two different groups, e.g. Archaeopteryx (dinosaur and bird)."
+              },
+              {
+                "term": "Pentadactyl limb",
+                "def": "A limb with a five-digit bone pattern, shared by many vertebrates, e.g. human arms and bat wings."
+              },
+              {
+                "term": "Mutation",
+                "def": "A random change in DNA. Mutations create new variation."
+              },
+              {
+                "term": "Antibiotic",
+                "def": "A medicine that kills bacteria (but not viruses)."
+              },
+              {
+                "term": "Resistant",
+                "def": "Not affected by something, e.g. bacteria that an antibiotic can no longer kill."
+              }
             ]
           },
           "questions": [
-            { "q": "Why do the oldest rocks contain only simple life forms?", "options": ["Simple organisms were the only life that existed when those rocks formed", "Complex animals sank to the bottom", "Simple organisms fossilise more easily", "The oldest rocks are too hot for complex life"], "answer": 0, "tag": "Evidence for evolution", "explain": "Rock layers build up over time, so deeper layers are older. Simple life appears first, then more complex life — exactly the order evolution predicts." },
-            { "q": "What made Archaeopteryx such an important fossil?", "options": ["It was the first fossil ever found", "It showed features of both dinosaurs and birds", "It was found by Darwin", "It was a fossil of a human"], "answer": 1, "tag": "Evidence for evolution", "explain": "Archaeopteryx had feathers and wings like a bird, but teeth, claws and a bony tail like a dinosaur — a transitional fossil linking two groups." },
-            { "q": "Why are there gaps in the fossil record?", "options": ["Evolution stopped for a while", "Scientists have hidden some fossils", "Animals didn't exist at certain times", "Most organisms never fossilise, and many fossils have been destroyed or not yet found"], "answer": 3, "tag": "Evidence for evolution", "explain": "Fossilisation needs rare conditions, soft parts usually decay, and Earth movements destroy rocks. So the record is incomplete — but new finds keep fitting the pattern." },
-            { "q": "Human arms, bat wings and whale flippers have the same basic bone pattern. What does this suggest?", "options": ["They all evolved from a shared ancestor", "They are all used for flying", "Humans evolved from bats", "It is just a coincidence"], "answer": 0, "tag": "Evidence for evolution", "explain": "The same pentadactyl pattern, adapted for different jobs, is best explained by a common ancestor. Humans didn't evolve from bats; both evolved from an older shared ancestor." },
-            { "q": "Humans share about 98–99% of their DNA with chimpanzees. What does this show?", "options": ["Humans are descended from modern chimpanzees", "Humans and chimpanzees share a recent common ancestor", "Chimpanzees are evolving into humans", "DNA is the same in all living things"], "answer": 1, "tag": "Evidence for evolution", "explain": "Similar DNA means close relationship. Humans and chimps both evolved from a common ancestor about 6–7 million years ago — modern chimps aren't our ancestors." },
-            { "q": "Why did dark peppered moths become common near Manchester during the Industrial Revolution?", "options": ["The soot dyed the moths black", "Pale moths moved away to the countryside", "Dark moths were better camouflaged on sooty trees, so fewer were eaten by birds", "Dark moths could fly faster"], "answer": 2, "tag": "Natural selection", "explain": "Soot darkened the trees. Dark moths were harder for birds to see, so they survived and bred more, passing on the dark colour. The soot didn't change the moths' genes — that would be Lamarck's mistake." },
-            { "q": "What happened to peppered moths after the Clean Air Act of 1956 reduced pollution?", "options": ["They became extinct", "All moths turned dark", "Nothing changed", "The pale form became common again"], "answer": 3, "tag": "Natural selection", "explain": "As trees became paler again, the pale moths were camouflaged and the dark ones stood out, so selection reversed. That's strong evidence that the environment drives the change." },
-            { "q": "Put these in order to show how antibiotic resistance develops: (1) resistant bacteria survive and reproduce; (2) a random mutation makes one bacterium resistant; (3) the antibiotic kills non-resistant bacteria.", "options": ["1, 2, 3", "3, 1, 2", "2, 3, 1", "2, 1, 3"], "answer": 2, "tag": "Antibiotic resistance", "explain": "First a mutation creates resistance (2), then the antibiotic kills the others (3), leaving the resistant ones to multiply (1). Variation, selection, then inheritance." },
-            { "q": "Why shouldn't doctors prescribe antibiotics for a cold?", "options": ["Colds are caused by viruses, which antibiotics don't kill", "Antibiotics make colds worse", "Colds are caused by bacteria that are always resistant", "Antibiotics only work in summer"], "answer": 0, "tag": "Antibiotic resistance", "explain": "Antibiotics kill bacteria, not viruses. Using them when they can't help just gives bacteria in your body more chances to evolve resistance." },
-            { "q": "A bacterium divides every 20 minutes, and every new cell keeps dividing. Starting with one bacterium, how many will there be after 2 hours?", "options": ["6", "12", "32", "64"], "answer": 3, "tag": "Data skills", "explain": "2 hours = 120 minutes = 6 divisions. The number doubles each time: 1 → 2 → 4 → 8 → 16 → 32 → 64. That speed is why resistance can spread so quickly." }
+            {
+              "q": "Why do the oldest rocks contain only simple life forms?",
+              "options": [
+                "Simple organisms were the only life that existed when those rocks formed",
+                "Complex animals sank to the bottom",
+                "Simple organisms fossilise more easily",
+                "The oldest rocks are too hot for complex life"
+              ],
+              "answer": 0,
+              "tag": "Evidence for evolution",
+              "explain": "Rock layers build up over time, so deeper layers are older. Simple life appears first, then more complex life — exactly the order evolution predicts."
+            },
+            {
+              "q": "What made Archaeopteryx such an important fossil?",
+              "options": [
+                "It was the first fossil ever found",
+                "It showed features of both dinosaurs and birds",
+                "It was found by Darwin",
+                "It was a fossil of a human"
+              ],
+              "answer": 1,
+              "tag": "Evidence for evolution",
+              "explain": "Archaeopteryx had feathers and wings like a bird, but teeth, claws and a bony tail like a dinosaur — a transitional fossil linking two groups."
+            },
+            {
+              "q": "Why are there gaps in the fossil record?",
+              "options": [
+                "Evolution stopped for a while",
+                "Scientists have hidden some fossils",
+                "Animals didn't exist at certain times",
+                "Most organisms never fossilise, and many fossils have been destroyed or not yet found"
+              ],
+              "answer": 3,
+              "tag": "Evidence for evolution",
+              "explain": "Fossilisation needs rare conditions, soft parts usually decay, and Earth movements destroy rocks. So the record is incomplete — but new finds keep fitting the pattern."
+            },
+            {
+              "q": "Human arms, bat wings and whale flippers have the same basic bone pattern. What does this suggest?",
+              "options": [
+                "They all evolved from a shared ancestor",
+                "They are all used for flying",
+                "Humans evolved from bats",
+                "It is just a coincidence"
+              ],
+              "answer": 0,
+              "tag": "Evidence for evolution",
+              "explain": "The same pentadactyl pattern, adapted for different jobs, is best explained by a common ancestor. Humans didn't evolve from bats; both evolved from an older shared ancestor."
+            },
+            {
+              "q": "Humans share about 98–99% of their DNA with chimpanzees. What does this show?",
+              "options": [
+                "Humans are descended from modern chimpanzees",
+                "Humans and chimpanzees share a recent common ancestor",
+                "Chimpanzees are evolving into humans",
+                "DNA is the same in all living things"
+              ],
+              "answer": 1,
+              "tag": "Evidence for evolution",
+              "explain": "Similar DNA means close relationship. Humans and chimps both evolved from a common ancestor about 6–7 million years ago — modern chimps aren't our ancestors."
+            },
+            {
+              "q": "Why did dark peppered moths become common near Manchester during the Industrial Revolution?",
+              "options": [
+                "The soot dyed the moths black",
+                "Pale moths moved away to the countryside",
+                "Dark moths were better camouflaged on sooty trees, so fewer were eaten by birds",
+                "Dark moths could fly faster"
+              ],
+              "answer": 2,
+              "tag": "Natural selection",
+              "explain": "Soot darkened the trees. Dark moths were harder for birds to see, so they survived and bred more, passing on the dark colour. The soot didn't change the moths' genes — that would be Lamarck's mistake."
+            },
+            {
+              "q": "What happened to peppered moths after the Clean Air Act of 1956 reduced pollution?",
+              "options": [
+                "They became extinct",
+                "All moths turned dark",
+                "Nothing changed",
+                "The pale form became common again"
+              ],
+              "answer": 3,
+              "tag": "Natural selection",
+              "explain": "As trees became paler again, the pale moths were camouflaged and the dark ones stood out, so selection reversed. That's strong evidence that the environment drives the change."
+            },
+            {
+              "q": "Put these in order to show how antibiotic resistance develops: (1) resistant bacteria survive and reproduce; (2) a random mutation makes one bacterium resistant; (3) the antibiotic kills non-resistant bacteria.",
+              "options": [
+                "1, 2, 3",
+                "3, 1, 2",
+                "2, 3, 1",
+                "2, 1, 3"
+              ],
+              "answer": 2,
+              "tag": "Antibiotic resistance",
+              "explain": "First a mutation creates resistance (2), then the antibiotic kills the others (3), leaving the resistant ones to multiply (1). Variation, selection, then inheritance."
+            },
+            {
+              "q": "Why shouldn't doctors prescribe antibiotics for a cold?",
+              "options": [
+                "Colds are caused by viruses, which antibiotics don't kill",
+                "Antibiotics make colds worse",
+                "Colds are caused by bacteria that are always resistant",
+                "Antibiotics only work in summer"
+              ],
+              "answer": 0,
+              "tag": "Antibiotic resistance",
+              "explain": "Antibiotics kill bacteria, not viruses. Using them when they can't help just gives bacteria in your body more chances to evolve resistance."
+            },
+            {
+              "q": "A bacterium divides every 20 minutes, and every new cell keeps dividing. Starting with one bacterium, how many will there be after 2 hours?",
+              "options": [
+                "6",
+                "12",
+                "32",
+                "64"
+              ],
+              "answer": 3,
+              "tag": "Data skills",
+              "explain": "2 hours = 120 minutes = 6 divisions. The number doubles each time: 1 → 2 → 4 → 8 → 16 → 32 → 64. That speed is why resistance can spread so quickly."
+            }
           ],
           "reflect": [
             "Explain, step by step, how bacteria become resistant to an antibiotic. Use the words 'mutation', 'variation' and 'natural selection'.",
